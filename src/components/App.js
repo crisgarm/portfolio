@@ -3,8 +3,10 @@ import "../stylesheets/App.scss";
 import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
+import DATA from "../services/data.js";
 
 const App = () => {
+  const [projects] = useState(DATA);
   const [isLight, setIsLight] = useState(false);
 
   useEffect(() => {
@@ -29,7 +31,7 @@ const App = () => {
   return (
     <div className={`app ${isLight ? "theme-light" : "theme-dark"}`}>
       <Header value={isLight} handleChange={handleChange} />
-      <Main />
+      <Main data={projects} />
       <Footer />
     </div>
   );

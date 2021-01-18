@@ -4,11 +4,11 @@ import ProjectList from "./ProjectList";
 import Contact from "./Contact";
 import "../stylesheets/Main.scss";
 
-const Main = () => {
+const Main = (props) => {
   return (
     <main className="main">
       <AboutMe />
-      <ProjectList />
+      <ProjectList data={props.data} />
       <Contact />
     </main>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import imgAboutme from "../images/cristina-garcia-martin.jpg";
 import "../stylesheets/AboutMe.scss";
 
-const AboutMe = (props) => {
+const AboutMe = () => {
   return (
     <section className="aboutme" id="aboutme">
       <h2 className="aboutme__title">¡Conóceme!</h2>

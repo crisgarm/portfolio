@@ -10,7 +10,7 @@ const DATA = [
     id: 1,
     title: "Rick and Morty character finder",
     description:
-      "Buscador de personajes de la serie Rick y Morty, pudiendo filtrar por  especie y ordenar los resultados por orden alfabético.",
+      "Buscador de personajes de la serie Rick y Morty, pudiendo filtrar por  especie y ordenar los resultados alfabéticamente.",
     image: RickMortyImg,
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/rick-morty-characters-finder",
