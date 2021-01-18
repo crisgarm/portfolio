@@ -1,15 +1,17 @@
 import React from "react";
 import "../stylesheets/App.scss";
+import Header from "./Header";
+import Main from "./Main";
+import Footer from "./Footer";
 
-class App extends React.Component {
-  // eslint-disable-next-line
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return <div className="App">Hola Cris</div>;
-  }
-}
+const App = () => {
+  return (
+    <div className="app">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
+};
 
 export default App;
