@@ -1,10 +1,27 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "../stylesheets/Header.scss";
+import "../stylesheets/Switch.scss";
 
 const Header = (props) => {
+  const handleChange = () => {
+    props.handleChange();
+  };
+
   return (
     <header className="header">
+      <label className="header__switch-label">
+        <input
+          className="header__switch-input"
+          type="checkbox"
+          onChange={handleChange}
+          checked={props.value}
+        />
+        <span className="header__switch-slider round">
+          <i className="fas fa-sun"></i>
+          <i className="fas fa-moon"></i>
+        </span>
+      </label>
       <nav className="header__nav">
         <ul className="header__list">
           <li className="header__list-item">
