@@ -1,0 +1,10 @@
+@import "./core/vars";
+
+.footer {
+  text-align: center;
+  padding: 30px;
+
+  &__text {
+    font-family: $fontFamilyText;
+  }
+}
