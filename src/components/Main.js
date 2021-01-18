@@ -6,7 +6,7 @@ import "../stylesheets/Main.scss";
 
 const Main = () => {
   return (
-    <main>
+    <main className="main">
       <AboutMe />
       <ProjectList />
       <Contact />

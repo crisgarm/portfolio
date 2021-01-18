@@ -1,0 +1,42 @@
+@import "./core/vars";
+
+.aboutme {
+  width: 100%;
+  display: block;
+
+  &__title {
+    font-family: $fontFamilyTitle;
+    color: $colorPrimary;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    font-family: $fontFamilyText;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  &__imgWrapper {
+    max-width: 300px;
+    padding: 35px 0;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
