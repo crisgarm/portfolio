@@ -1,3 +1,7 @@
-.App {
-  text-align: center;
+@import "./core/reset";
+@import "./core/vars";
+
+.app {
+  background: var(--theme-background);
+  color: var(--theme-text);
 }

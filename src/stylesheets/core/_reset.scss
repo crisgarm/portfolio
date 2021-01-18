@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+//Themes
+.theme-light {
+  --theme-background: #f5f1f1;
+  --theme-text: #1c1d25;
+}
+
+.theme-dark {
+  --theme-background: #1c1d25;
+  --theme-text: #e7dddd;
+}
