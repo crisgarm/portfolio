@@ -1,0 +1,30 @@
+@import "./core/vars";
+
+.scroll {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid $colorSecondary;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 25px;
+  right: 8px;
+  animation: scroll 0.5s ease-in;
+
+  &__arrow {
+    color: $colorPrimary;
+    font-size: 12px;
+  }
+}
+
+@keyframes scroll {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
