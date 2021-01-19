@@ -12,9 +12,9 @@ const ScrollToTop = () => {
   });
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400) {
+    if (!showScroll && window.pageYOffset > 250) {
       setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= 400) {
+    } else if (showScroll && window.pageYOffset <= 250) {
       setShowScroll(false);
     }
   };
@@ -24,9 +24,9 @@ const ScrollToTop = () => {
   };
   return (
     <div
-      className="scroll"
+      className={`scroll ${showScroll ? "" : "hidden"}`}
       onClick={scrollTop}
-      style={{ display: showScroll ? "flex" : "none" }}
+      // style={{ display: showScroll ? "flex" : "none" }}
     >
       <i className="scroll__arrow fas fa-chevron-up"></i>
     </div>

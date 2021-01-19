@@ -5,7 +5,7 @@ import "../stylesheets/AboutMe.scss";
 const AboutMe = () => {
   return (
     <section className="aboutme" id="aboutme">
-      <h2 className="aboutme__title">¡Conóceme!</h2>
+      <h2 className="aboutme__title">Sobre mi</h2>
       <div className="aboutme__wrapper">
         <div className="aboutme__textWrapper">
           <p className="aboutme__text">
