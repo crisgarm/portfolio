@@ -10,9 +10,18 @@
     flex-direction: row;
     justify-content: flex-end;
     font-size: 18px;
+    margin-right: 10px;
+
+    @include tablet {
+      margin-right: 30px;
+    }
 
     &-item {
-      padding: 12px;
+      padding: 15px 5px;
+
+      @include tablet {
+        padding: 15px 15px;
+      }
     }
 
     &-item-link {

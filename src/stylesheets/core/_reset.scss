@@ -17,3 +17,21 @@
   --theme-background: #1c1d25;
   --theme-text: #e7dddd;
 }
+
+//Scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    0deg,
+    rgba(169, 41, 79, 1) 15%,
+    rgba(96, 34, 87, 1) 49%
+  );
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(209, 189, 218);
+}
