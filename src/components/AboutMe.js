@@ -9,13 +9,17 @@ const AboutMe = () => {
       <div className="aboutme__wrapper">
         <div className="aboutme__textWrapper">
           <p className="aboutme__text">
-            Comunicadora audiovisual reconvertida en front-end developer. Me
-            gusta afrontar nuevos retos con optimismo y perspectiva. He
+            Comunicadora audiovisual reconvertida en{" "}
+            <span className="aboutme__text-span">desarrolladora frontend.</span>{" "}
+            Me gusta afrontar nuevos retos con optimismo y perspectiva. He
             trabajado en distintos ámbitos, en el sector público y en el
-            privado, tanto en agencia como en cliente, fomentando mi capacidad
-            de adaptación a diferentes entornos y exigencias. Mi experiencia
-            profesional en equipos multidisciplinares me convierte en una
-            persona despierta, activa y comprometida.
+            privado, tanto en agencia como en cliente, fomentando mi{" "}
+            <span className="aboutme__text-span">capacidad de adaptación</span>{" "}
+            a diferentes entornos y exigencias. Mi experiencia profesional en
+            equipos multidisciplinares me convierte en una persona{" "}
+            <span className="aboutme__text-span">
+              despierta, activa y comprometida.
+            </span>
           </p>
           <p className="aboutme__text">
             Tras mi experiencia mejorando el posicionamiento orgánicos de sitios

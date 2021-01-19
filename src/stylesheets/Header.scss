@@ -27,6 +27,7 @@
     &-item-link {
       font-family: $fontFamilyTitle;
       color: var(--theme-text);
+      transition: color 750ms;
       padding: 2px;
       position: relative;
 
@@ -80,11 +81,12 @@
       color: $colorTertiary;
     }
 
-    &-title {
+    &-subtitle {
       display: flex;
       flex-direction: column;
       font-size: 50px;
-      color: $colorPrimary;
+      color: var(--theme-color-primary);
+      transition: color 750ms;
 
       @include tablet {
         font-size: 60px;
@@ -95,9 +97,10 @@
       }
     }
 
-    &-subtitle {
+    &-title {
       font-size: 30px;
-      color: $colorSecondary;
+      color: var(--theme-color-secondary);
+      transition: color 750ms;
 
       @include tablet {
         font-size: 40px;
@@ -123,6 +126,7 @@
       padding: 5px;
       margin: 10px;
       color: var(--theme-text);
+      transition: color 750ms;
       &:hover {
         color: $colorTertiary;
       }

@@ -14,7 +14,8 @@
 
   &__title {
     font-family: $fontFamilyTitle;
-    color: $colorPrimary;
+    color: var(--theme-color-primary);
+    transition: color 750ms;
     font-size: 22px;
     letter-spacing: 0.5px;
     padding: 55px 0;
@@ -52,12 +53,17 @@
       font-family: $fontFamilyText;
 
       &:hover {
-        color: $colorSecondary;
+        color: var(--theme-color-secondary);
       }
+
       &-icon {
         font-size: 40px;
         padding-bottom: 10px;
       }
     }
   }
+}
+
+.fa-grin-alt {
+  color: var(--theme-text);
 }

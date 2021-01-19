@@ -59,8 +59,8 @@ const Header = (props) => {
       <section className="hero">
         <div className="hero__wrapper">
           <span className="hero__wrapper-span">&lt;Hola Mundo/&gt;</span>
-          <h2 className="hero__wrapper-title">Cristina García Martín</h2>
-          <h1 className="hero__wrapper-subtitle">Frontend developer</h1>
+          <h2 className="hero__wrapper-subtitle">Cristina García Martín</h2>
+          <h1 className="hero__wrapper-title">Frontend developer</h1>
         </div>
         <ul className="hero__menu">
           <li className="hero__menu-item">

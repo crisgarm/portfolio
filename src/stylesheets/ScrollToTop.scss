@@ -21,7 +21,7 @@
   }
 
   &__arrow {
-    color: $colorPrimary;
+    color: var(--theme-color-primary);
     font-size: 12px;
 
     @include tablet {
