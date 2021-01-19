@@ -129,6 +129,7 @@
       transition: color 750ms;
       &:hover {
         color: $colorTertiary;
+        transition: color 100ms;
       }
     }
   }
