@@ -23,7 +23,7 @@ const Project = (props) => {
         </p>
       </div>
       <div className="projects__content-wrapper">
-        <h2 className="projects__content-title">{props.projectItem.title}</h2>
+        <h3 className="projects__content-title">{props.projectItem.title}</h3>
         <div>
           <a
             href={props.projectItem.githubLink}
