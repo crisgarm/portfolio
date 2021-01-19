@@ -1,10 +1,11 @@
 @import "./core/vars";
+@import "./core/mixins";
 
 .scroll {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 2px solid $colorSecondary;
+  border: 2px solid $colorTertiary;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -13,10 +14,19 @@
   bottom: 25px;
   right: 8px;
   animation: scroll 0.5s ease-in;
+  @include tablet {
+    width: 35px;
+    height: 35px;
+    right: 15px;
+  }
 
   &__arrow {
     color: $colorPrimary;
     font-size: 12px;
+
+    @include tablet {
+      font-size: 15px;
+    }
   }
 }
 

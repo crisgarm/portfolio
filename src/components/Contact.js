@@ -25,7 +25,7 @@ const Contact = () => {
             <i className="fab fa-linkedin-in contact__menu-link-icon"></i>
           </a>
         </li>
-        <li>
+        <li className="contact__menu-item">
           <a
             href="https://github.com/crisgarm/"
             className="contact__menu-link"
@@ -36,7 +36,7 @@ const Contact = () => {
             <i className="fab fa-github contact__menu-link-icon"></i>
           </a>
         </li>
-        <li>
+        <li className="contact__menu-item">
           <a
             href="mailto:crisgarm9@gmail.com"
             className="contact__menu-link"
@@ -47,7 +47,7 @@ const Contact = () => {
             <i className="far fa-envelope contact__menu-link-icon"></i>
           </a>
         </li>
-        <li>
+        <li className="contact__menu-item">
           <a
             href="https://twitter.com/Cris_Gar_Mar"
             className="contact__menu-link"
