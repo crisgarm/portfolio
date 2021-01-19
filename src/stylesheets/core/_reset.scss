@@ -11,11 +11,17 @@
 .theme-light {
   --theme-background: #f5f1f1;
   --theme-text: #1c1d25;
+  --theme-color-primary: #a9294f;
+  --theme-color-secondary: #fdb827;
+  --theme-color-tertiary: #29c7a5;
 }
 
 .theme-dark {
   --theme-background: #1c1d25;
   --theme-text: #e7dddd;
+  --theme-color-primary: #fdb827;
+  --theme-color-secondary: #29c7a5;
+  --theme-color-tertiary: #a9294f;
 }
 
 //Scrollbar
