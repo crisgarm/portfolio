@@ -1,5 +1,5 @@
 import React from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import "../stylesheets/Header.scss";
 import "../stylesheets/Switch.scss";
 
@@ -25,34 +25,34 @@ const Header = (props) => {
       <nav className="header__nav">
         <ul className="header__list">
           <li className="header__list-item">
-            <Link
+            <HashLink
               to="#aboutme"
               className="header__list-item-link"
               alt="Ir a la sección sobre Cristina"
               title="Ir a la sección sobre Cristina"
             >
               Sobre mi
-            </Link>
+            </HashLink>
           </li>
           <li className="header__list-item">
-            <Link
+            <HashLink
               to="#projects"
               className="header__list-item-link"
               alt="Ir a la sección de proyectos"
               title="Ir a la sección de proyectos"
             >
               Proyectos
-            </Link>
+            </HashLink>
           </li>
           <li className="header__list-item">
-            <Link
+            <HashLink
               to="#contact"
               className="header__list-item-link"
               alt="Ir a la sección de contacto"
               title="Ir a la sección de contacto"
             >
               Contacto
-            </Link>
+            </HashLink>
           </li>
         </ul>
       </nav>
