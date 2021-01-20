@@ -22,7 +22,7 @@ const AboutMe = () => {
             </span>
           </p>
           <p className="aboutme__text">
-            Tras mi experiencia mejorando el posicionamiento orgánicos de sitios
+            Tras mi experiencia mejorando el posicionamiento orgánico de sitios
             web, descubrí otra forma de comunicación: la programación. Así
             aterricé en Adalab, donde con motivación, actitud y esfuerzo,
             despega mi aventura de aprendizaje como desarrolladora frontend.
