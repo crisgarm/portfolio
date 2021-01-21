@@ -31,7 +31,7 @@ const Header = (props) => {
               alt="Ir a la sección sobre Cristina"
               title="Ir a la sección sobre Cristina"
             >
-              Sobre mi
+              Sobre mí
             </HashLink>
           </li>
           <li className="header__list-item">
@@ -104,7 +104,9 @@ const Header = (props) => {
             </a>
           </li>
         </ul>
-        <i className=" hero__arrow fas fa-angle-double-down"></i>
+        <HashLink to="#aboutme">
+          <i className=" hero__arrow fas fa-angle-double-down"></i>
+        </HashLink>
       </section>
     </header>
   );

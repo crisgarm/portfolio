@@ -13,7 +13,8 @@
   position: fixed;
   bottom: 25px;
   right: 8px;
-  animation: scroll 0.5s ease-in;
+  animation: scroll 0.5s ease-in-out;
+
   @include tablet {
     width: 35px;
     height: 35px;

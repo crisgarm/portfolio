@@ -23,11 +23,7 @@ const ScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <div
-      className={`scroll ${showScroll ? "" : "hidden"}`}
-      onClick={scrollTop}
-      // style={{ display: showScroll ? "flex" : "none" }}
-    >
+    <div className={`scroll ${showScroll ? "" : "hidden"}`} onClick={scrollTop}>
       <i className="scroll__arrow fas fa-chevron-up"></i>
     </div>
   );
