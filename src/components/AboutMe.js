@@ -26,7 +26,7 @@ const AboutMe = () => {
             web, encontré otra forma de comunicación: la{" "}
             <span className="aboutme__text-span">programación.</span> Así
             aterricé en Adalab, donde he descubierto un mundo apasionante lleno
-            de oportunidades que me motiva a mejorar día a día.
+            de posibilidades que me motiva a mejorar día a día.
           </p>
         </div>
         <div className="aboutme__imgWrapper">
