@@ -23,9 +23,10 @@ const AboutMe = () => {
           </p>
           <p className="aboutme__text">
             Tras mi experiencia mejorando el posicionamiento orgánico de sitios
-            web, descubrí otra forma de comunicación: la programación. Así
-            aterricé en Adalab, donde con motivación, actitud y esfuerzo,
-            despega mi aventura de aprendizaje como desarrolladora frontend.
+            web, encontré otra forma de comunicación: la{" "}
+            <span className="aboutme__text-span">programación.</span> Así
+            aterricé en Adalab, donde he descubierto un mundo apasionante lleno
+            de oportunidades que me motiva a mejorar día a día.
           </p>
         </div>
         <div className="aboutme__imgWrapper">
@@ -36,6 +37,16 @@ const AboutMe = () => {
             title="Cristina García"
           />
         </div>
+      </div>
+      <div className="aboutme__skills">
+        <i className="aboutme__skills-icon icon-html fab fa-html5"></i>
+        <i className="aboutme__skills-icon icon-css fab fa-css3-alt"></i>
+        <i className="aboutme__skills-icon icon-sass fab fa-sass"></i>
+        <i className="aboutme__skills-icon icon-js fab fa-js"></i>
+        <i className="aboutme__skills-icon icon-react fab fa-react"></i>
+        <i className="aboutme__skills-icon icon-git fab fa-git-alt"></i>
+        <i className="aboutme__skills-icon icon-gulp fab fa-gulp"></i>
+        <i className="aboutme__skills-icon icon-node fab fa-node"></i>
       </div>
     </section>
   );

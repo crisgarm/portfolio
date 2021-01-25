@@ -9,7 +9,7 @@
   }
 
   @include desktop {
-    padding: 0 80px;
+    padding: 0 100px;
   }
 
   &__title {
@@ -20,6 +20,10 @@
     letter-spacing: 0.5px;
     padding: 55px 0;
     text-align: center;
+
+    @include tablet {
+      padding-bottom: 100px;
+    }
   }
 
   &__text {
@@ -27,18 +31,32 @@
     font-size: 18px;
     font-weight: 300;
     line-height: 1.5;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     text-align: center;
+
+    @include tablet {
+      padding-bottom: 100px;
+    }
+
+    @include desktop {
+      padding-bottom: 130px;
+    }
   }
 
   &__menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 40px;
 
     @include tablet {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
+      margin-bottom: 60px;
+    }
+
+    @include desktop {
+      margin-bottom: 100px;
     }
 
     &-item {

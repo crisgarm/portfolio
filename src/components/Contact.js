@@ -7,12 +7,11 @@ const Contact = () => {
       <h2 className="contact__title">¿Hablamos?</h2>
       <p className="contact__text">
         Si quieres hablar sobre desarrollo web, darme feedback sobre mis
-        proyectos o simplemente decir hola <i className="far fa-grin-alt"></i>,
-        puedes escribirme un email o contactarme a través de LinkedIn, Github o
-        Twitter. Además, estoy buscando mi primera oportunidad laboral como
-        desarrolladora frontend, así que si crees que mi perfil puede encajar
-        con lo que buscas, no dudes en ponerte en contacto conmigo. ¡Gracias y
-        hasta pronto!
+        proyectos o simplemente decir hola 😄, puedes escribirme un email o
+        contactarme a través de LinkedIn, Github o Twitter. Además, estoy
+        buscando mi primera oportunidad laboral como desarrolladora frontend,
+        así que si crees que mi perfil puede encajar con lo que buscas, no dudes
+        en ponerte en contacto conmigo. ¡Gracias y hasta pronto!
       </p>
       <ul className="contact__menu">
         <li className="contact__menu-item">

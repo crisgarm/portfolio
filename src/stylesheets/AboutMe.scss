@@ -56,4 +56,177 @@
     object-fit: cover;
     border-radius: 50%;
   }
+
+  &__skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 1em;
+    font-size: 50px;
+    padding: 70px 0 50px 0;
+
+    @include tablet {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: 1fr;
+      padding: 100px 0 50px 0;
+    }
+
+    &-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.icon-html:hover::before {
+  color: #e34f26;
+  transition: all 0.5s ease;
+}
+
+.icon-html::after {
+  content: "HTML5";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-html:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-css:hover::before {
+  color: #0096d1;
+  transition: all 0.5s ease;
+}
+
+.icon-css::after {
+  content: "CSS3";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-css:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-sass:hover::before {
+  color: #c56394;
+  transition: all 0.5s ease;
+}
+
+.icon-sass::after {
+  content: "Sass";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-sass:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-js:hover::before {
+  color: #f7df1e;
+  transition: all 0.5s ease;
+}
+
+.icon-js::after {
+  content: "JavaScript";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-js:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-react:hover::before {
+  color: #61dafb;
+  transition: all 0.5s ease;
+}
+
+.icon-react::after {
+  content: "React";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-react:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-git:hover::before {
+  color: #f05133;
+  transition: all 0.5s ease;
+}
+
+.icon-git::after {
+  content: "Git";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-git:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-gulp:hover::before {
+  color: #e84c50;
+  transition: all 0.5s ease;
+}
+
+.icon-gulp::after {
+  content: "Gulp";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-gulp:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.icon-node:hover::before {
+  color: #91c441;
+  transition: all 0.5s ease;
+}
+
+.icon-node::after {
+  content: "Node.js";
+  opacity: 0;
+  font-size: 14px;
+  font-family: $fontFamilyText;
+  padding-top: 8px;
+}
+
+.icon-node:hover::after {
+  opacity: 1;
+  transition: all 0.5s ease;
 }

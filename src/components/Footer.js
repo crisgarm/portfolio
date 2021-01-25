@@ -5,9 +5,7 @@ import Scroll from "./ScrollToTop";
 const Footer = () => {
   return (
     <footer className="footer">
-      <small className="footer__text">
-        &lt; Desarrollado por Cristina García Martín /&gt;
-      </small>
+      <small>&copy; 2021 Cristina García Martín</small>
       <Scroll />
     </footer>
   );
