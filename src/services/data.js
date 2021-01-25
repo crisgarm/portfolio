@@ -2,7 +2,7 @@ import RickMortyImg from "../images/project-01-rick-morty.PNG";
 import SeriesFinderImg from "../images/project-02-series-finder.png";
 import FridaKardsImg from "../images/project-03-frida-kards.PNG";
 import SurrenderImg from "../images/project-04-surrender.PNG";
-import NinjaCodersImg from "../images/project-05-ninja-coders.PNG";
+import NinjaCodersImg from "../images/project-05-ninja-coders.png";
 import HangmanGameImg from "../images/project-06-hangman-game.PNG";
 
 const DATA = [
