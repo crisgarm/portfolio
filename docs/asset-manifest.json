@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.ea652035.chunk.css",
-    "main.js": "./static/js/main.205a6343.chunk.js",
-    "main.js.map": "./static/js/main.205a6343.chunk.js.map",
+    "main.css": "./static/css/main.b0fa92ee.chunk.css",
+    "main.js": "./static/js/main.165322b4.chunk.js",
+    "main.js.map": "./static/js/main.165322b4.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b53c4826.js",
     "runtime-main.js.map": "./static/js/runtime-main.b53c4826.js.map",
     "static/js/2.262c108e.chunk.js": "./static/js/2.262c108e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e5f2e93e.chunk.js": "./static/js/3.e5f2e93e.chunk.js",
     "static/js/3.e5f2e93e.chunk.js.map": "./static/js/3.e5f2e93e.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.ea652035.chunk.css.map": "./static/css/main.ea652035.chunk.css.map",
+    "static/css/main.b0fa92ee.chunk.css.map": "./static/css/main.b0fa92ee.chunk.css.map",
     "static/js/2.262c108e.chunk.js.LICENSE.txt": "./static/js/2.262c108e.chunk.js.LICENSE.txt",
     "static/media/cristina-garcia-martin.69832373.jpg": "./static/media/cristina-garcia-martin.69832373.jpg",
     "static/media/project-01-rick-morty.ffcf89cb.PNG": "./static/media/project-01-rick-morty.ffcf89cb.PNG",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.b53c4826.js",
     "static/js/2.262c108e.chunk.js",
-    "static/css/main.ea652035.chunk.css",
-    "static/js/main.205a6343.chunk.js"
+    "static/css/main.b0fa92ee.chunk.css",
+    "static/js/main.165322b4.chunk.js"
   ]
 }
