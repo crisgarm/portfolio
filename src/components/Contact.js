@@ -21,6 +21,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
+            title="Ir a LinkedIn"
           >
             <small>crisgarm</small>
             <i className="fab fa-linkedin-in contact__menu-link-icon"></i>
@@ -32,6 +33,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
+            title="Ir a Github"
           >
             <small>crisgarm</small>
             <i className="fab fa-github contact__menu-link-icon"></i>
@@ -43,6 +45,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
+            title="Email"
           >
             <small>crisgarm9@gmail.com</small>
             <i className="far fa-envelope contact__menu-link-icon"></i>
@@ -54,6 +57,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
+            title="Ir a Twitter"
           >
             <small>Cris_Gar_Mar</small>
             <i className="fab fa-twitter contact__menu-link-icon"></i>

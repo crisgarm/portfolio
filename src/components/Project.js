@@ -15,7 +15,9 @@ const Project = (props) => {
         <img
           src={props.projectItem.image}
           className="projects__content-img"
-          alt={"Previsualización app " + props.projectItem.title}
+          alt={
+            "Imagen de previsualización del proyecto " + props.projectItem.title
+          }
           title={"Previsualización app " + props.projectItem.title}
         />
         <p className="projects__content-text">
@@ -29,10 +31,16 @@ const Project = (props) => {
             href={props.projectItem.githubLink}
             target="_blank"
             rel="noreferrer"
+            title="Ver el repositorio"
           >
             <i className="fab fa-github projects__content-links"></i>
           </a>
-          <a href={props.projectItem.webLink} target="_blank" rel="noreferrer">
+          <a
+            href={props.projectItem.webLink}
+            target="_blank"
+            rel="noreferrer"
+            title="Ver la web"
+          >
             <i className="fas fa-laptop projects__content-links"></i>
           </a>
         </div>

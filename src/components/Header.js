@@ -69,6 +69,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
+              title="Ir a LinkedIn"
             >
               <i className="fab fa-linkedin-in hero__menu-item-link-icon"></i>
             </a>
@@ -79,6 +80,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
+              title="Ir a Github"
             >
               <i className="fab fa-github hero__menu-item-link-icon"></i>
             </a>
@@ -89,6 +91,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
+              title="Email"
             >
               <i className="far fa-envelope hero__menu-item-link-icon"></i>
             </a>
@@ -99,6 +102,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
+              title="Ir a Twitter"
             >
               <i className="fab fa-twitter hero__menu-item-link-icon"></i>
             </a>

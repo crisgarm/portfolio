@@ -32,7 +32,7 @@ const AboutMe = () => {
           <img
             src={imgAboutme}
             className="aboutme__image"
-            alt="Cristina García"
+            alt="Foto de Cristina García"
             title="Cristina García"
           />
         </div>
