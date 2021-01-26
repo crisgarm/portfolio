@@ -4,7 +4,7 @@
 
 En esta página podéis encontrar una breve descripción sobre mí, los proyectos que he desarrollado hasta ahora y varias formas de contacto. Poco a poco iré añadiéndole más funcionalidades y mejoras, además de próximos proyectos que tengo en mente realizar.
 
-> **Tecnologías:** Este proyecto ha sido desarrollado en REACT.
+> **Tecnologías:** Proyecto desarrollado en REACT.
 
 ### Instalación
 

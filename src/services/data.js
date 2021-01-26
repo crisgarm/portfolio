@@ -53,8 +53,8 @@ const DATA = [
       "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
     image: NinjaCodersImg,
     skills: ["HTML", "CSS", "SASS"],
-    githubLink: "https://github.com/crisgarm/project-promo-k-module-1-team-8",
-    webLink: "https://beta.adalab.es/project-promo-k-module-1-team-8/",
+    githubLink: "https://github.com/crisgarm/ninja-coders",
+    webLink: "https://crisgarm.github.io/ninja-coders/",
   },
   {
     id: 6,
