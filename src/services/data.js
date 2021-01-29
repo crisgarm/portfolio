@@ -4,6 +4,8 @@ import FridaKardsImg from "../images/project-03-frida-kards.PNG";
 import SurrenderImg from "../images/project-04-surrender.PNG";
 import NinjaCodersImg from "../images/project-05-ninja-coders.PNG";
 import HangmanGameImg from "../images/project-06-hangman-game.PNG";
+import GuessTheNumber from "../images/project-07-guess-number.PNG";
+import ToDoList from "../images/project-08-to-do-list.PNG";
 
 const DATA = [
   {
@@ -60,11 +62,31 @@ const DATA = [
     id: 6,
     title: "Hangman game",
     description:
-      "Desarrollo del juego del ahorcado, donde la persona debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript con el objetivo de seguir practicando.",
+      "Desarrollo del juego del ahorcado, donde la persona debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
     image: HangmanGameImg,
     skills: ["HTML", "CSS", "JS"],
     githubLink: "https://github.com/crisgarm/hangman-game",
     webLink: "https://crisgarm.github.io/hangman-game/",
+  },
+  {
+    id: 7,
+    title: "Guess the number",
+    description:
+      "El juego consiste en que el programa genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
+    image: GuessTheNumber,
+    skills: ["HTML", "CSS", "JS"],
+    githubLink: "https://github.com/crisgarm/guess-the-number",
+    webLink: "https://crisgarm.github.io/guess-the-number/",
+  },
+  {
+    id: 8,
+    title: "To-Do List App",
+    description:
+      "Aplicación web para la gestión de tareas. La página consta de un input y un botón para añadir nuevas tareas, marcarlas como completadas o borrarlas, además de tener la opción de filtrar por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas.",
+    image: ToDoList,
+    skills: ["HTML", "SASS", "REACT"],
+    githubLink: "https://github.com/crisgarm/to-do",
+    webLink: "https://crisgarm.github.io/to-do/",
   },
 ];
 
