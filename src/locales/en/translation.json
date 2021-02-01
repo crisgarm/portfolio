@@ -8,15 +8,22 @@
     "menu-contact": "Contact",
     "menu-contact-alt": "Go to contact section",
     "linkedin": "Go to LinkedIn",
-    "github": "Go to github",
-    "twitter": "Go to twitter"
+    "github": "Go to Github",
+    "twitter": "Go to Twitter"
   },
 
   "aboutme": {
     "title": "About me",
     "img-alt": "Photo of Cristina García",
-    "text1": "Audiovisual communicator turned frontend developer. I like to face new challenges with optimism and perspective. I have worked in different fields, in the public and private sectors, both in agencies and clients, fostering my ability to adapt to different environments and demands. My professional experience in multidisciplinary teams makes me an alert, active and committed person.",
-    "text2": "After my experience improving the organic positioning of websites, I found another way of communication: programming. That's how I landed in Adalab, where I have discovered an exciting world full of possibilities that motivates me to improve day by day."
+    "text1": "Audiovisual communicator turned",
+    "text2": "frontend developer.",
+    "text3": "I like to face new challenges with optimism and perspective. I have worked in different fields, in the public and private sectors, both in agencies and clients, fostering",
+    "text4": " my ability to adapt",
+    "text5": "to different environments and demands. My professional experience in multidisciplinary teams makes me an",
+    "text6": "alert, active and committed person.",
+    "text7": "After my experience improving the organic positioning of websites, I found another way of communication:",
+    "text8": "programming.",
+    "text9": "That's how I landed in Adalab, where I have discovered an exciting world full of possibilities that motivates me to improve day by day."
   },
 
   "projects": {

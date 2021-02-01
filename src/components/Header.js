@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
+import { useTranslation } from "react-i18next";
 import Navbar from "./Navbar";
 import "../stylesheets/Header.scss";
 import "../stylesheets/Switch.scss";
@@ -8,6 +9,8 @@ const Header = (props) => {
   const handleChange = () => {
     props.handleChange();
   };
+
+  const { t, i18n } = useTranslation(["translation"]);
 
   return (
     <header className="header">
@@ -23,10 +26,20 @@ const Header = (props) => {
           <i className="fas fa-moon"></i>
         </span>
       </label>
+      <div>
+        <button type="button" onClick={() => i18n.changeLanguage("es")}>
+          ES
+        </button>
+        <button type="button" onClick={() => i18n.changeLanguage("en")}>
+          EN
+        </button>
+      </div>
       <Navbar />
       <section className="hero">
         <div className="hero__wrapper">
-          <span className="hero__wrapper-span">&lt;Hola Mundo/&gt;</span>
+          <span className="hero__wrapper-span">
+            &lt;{t("header.small")}/&gt;
+          </span>
           <h2 className="hero__wrapper-subtitle">Cristina García Martín</h2>
           <h1 className="hero__wrapper-title">Frontend developer</h1>
         </div>
@@ -37,7 +50,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
-              title="Ir a LinkedIn"
+              title={t("header.linkedin")}
             >
               <i className="fab fa-linkedin-in hero__menu-item-link-icon"></i>
             </a>
@@ -48,7 +61,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
-              title="Ir a Github"
+              title={t("header.github")}
             >
               <i className="fab fa-github hero__menu-item-link-icon"></i>
             </a>
@@ -70,7 +83,7 @@ const Header = (props) => {
               className="hero__menu-item-link"
               target="_blank"
               rel="noreferrer"
-              title="Ir a Twitter"
+              title={t("header.twitter")}
             >
               <i className="fab fa-twitter hero__menu-item-link-icon"></i>
             </a>

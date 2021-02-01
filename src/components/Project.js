@@ -1,7 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../stylesheets/Projects.scss";
 
 const Project = (props) => {
+  console.log(props);
+  const { t } = useTranslation();
+
   const projectSkills = props.projectItem.skills.map((skill, index) => {
     return (
       <li className="projects__content-skills-item" key={index}>
@@ -21,7 +25,7 @@ const Project = (props) => {
           title={"Previsualización app " + props.projectItem.title}
         />
         <p className="projects__content-text">
-          {props.projectItem.description}
+          {t(props.projectItem.description)}
         </p>
       </div>
       <div className="projects__content-wrapper">
@@ -31,7 +35,7 @@ const Project = (props) => {
             href={props.projectItem.githubLink}
             target="_blank"
             rel="noreferrer"
-            title="Ver el repositorio"
+            title={t("projects.github-alt")}
           >
             <i className="fab fa-github projects__content-links"></i>
           </a>
@@ -39,7 +43,7 @@ const Project = (props) => {
             href={props.projectItem.webLink}
             target="_blank"
             rel="noreferrer"
-            title="Ver la web"
+            title={t("projects.web-alt")}
           >
             <i className="fas fa-laptop projects__content-links"></i>
           </a>

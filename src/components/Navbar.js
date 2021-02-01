@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
+import { useTranslation } from "react-i18next";
 import "../stylesheets/Header.scss";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClickBurguerButton = () => {
@@ -16,33 +19,33 @@ const Navbar = () => {
           <HashLink
             to="#aboutme"
             className="header__list-item-link"
-            alt="Ir a la sección sobre Cristina"
-            title="Ir a la sección sobre Cristina"
+            alt={t("header.menu-aboutme-alt")}
+            title={t("header.menu-aboutme-alt")}
             onClick={handleClickBurguerButton}
           >
-            Sobre mí
+            {t("header.menu-aboutme")}
           </HashLink>
         </li>
         <li className="header__list-item">
           <HashLink
             to="#projects"
             className="header__list-item-link"
-            alt="Ir a la sección de proyectos"
-            title="Ir a la sección de proyectos"
+            alt={t("header.menu-projects-alt")}
+            title={t("header.menu-projects-alt")}
             onClick={handleClickBurguerButton}
           >
-            Proyectos
+            {t("header.menu-projects")}
           </HashLink>
         </li>
         <li className="header__list-item">
           <HashLink
             to="#contact"
             className="header__list-item-link"
-            alt="Ir a la sección de contacto"
-            title="Ir a la sección de contacto"
+            alt={t("header.menu-contact-alt")}
+            title={t("header.menu-contact-alt")}
             onClick={handleClickBurguerButton}
           >
-            Contacto
+            {t("header.menu-contact")}
           </HashLink>
         </li>
       </ul>

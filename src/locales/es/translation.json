@@ -15,8 +15,15 @@
   "aboutme": {
     "title": "Sobre mí",
     "img-alt": "Foto de Cristina García",
-    "text1": "Comunicadora audiovisual reconvertida en desarrolladora frontend. Me gusta afrontar nuevos retos con optimismo y perspectiva. He trabajado en distintos ámbitos, en el sector público y en el privado, tanto en agencia como en cliente, fomentando mi capacidad de adaptación a diferentes entornos y exigencias. Mi experiencia profesional en equipos multidisciplinares me convierte en una persona despierta, activa y comprometida.",
-    "text2": "Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, encontré otra forma de comunicación: la programación. Así aterricé en Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día."
+    "text1": "Comunicadora audiovisual reconvertida en",
+    "text2": "desarrolladora frontend.",
+    "text3": "Me gusta afrontar nuevos retos con optimismo y perspectiva. He trabajado en distintos ámbitos, en el sector público y en el privado, tanto en agencia como en cliente, fomentando mi",
+    "text4": "capacidad de adaptación",
+    "text5": "a diferentes entornos y exigencias. Mi experiencia profesional en equipos multidisciplinares me convierte en una persona",
+    "text6": "despierta, activa y comprometida.",
+    "text7": " Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, encontré otra forma de comunicación: la",
+    "text8": "programación.",
+    "text9": "Así aterricé en Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día."
   },
 
   "projects": {
