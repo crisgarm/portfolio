@@ -1,0 +1,40 @@
+{
+  "header": {
+    "small": "Hola Mundo",
+    "menu-aboutme": "Sobre mí",
+    "menu-aboutme-alt": "Ir a la sección sobre Cristina",
+    "menu-projects": "Proyectos",
+    "menu-projects-alt": "Ir a la sección de proyectos",
+    "menu-contact": "Contacto",
+    "menu-contact-alt": "Ir a la sección de contacto",
+    "linkedin": "Ir a LinkedIn",
+    "github": "Ir a github",
+    "twitter": "Ir a twitter"
+  },
+
+  "aboutme": {
+    "title": "Sobre mí",
+    "img-alt": "Foto de Cristina García",
+    "text1": "Comunicadora audiovisual reconvertida en desarrolladora frontend. Me gusta afrontar nuevos retos con optimismo y perspectiva. He trabajado en distintos ámbitos, en el sector público y en el privado, tanto en agencia como en cliente, fomentando mi capacidad de adaptación a diferentes entornos y exigencias. Mi experiencia profesional en equipos multidisciplinares me convierte en una persona despierta, activa y comprometida.",
+    "text2": "Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, encontré otra forma de comunicación: la programación. Así aterricé en Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día."
+  },
+
+  "projects": {
+    "title": "Mis proyectos",
+    "github-alt": "Ver el repositorio",
+    "web-alt": "Ver la web",
+    "rick-morty": "Buscador de personajes de la serie Rick y Morty que permite filtrar por nombre y acceder a una ficha detalle de cada uno mediante el uso de React Router. Además, se puede filtrar por especie y ordenar los resultados alfabéticamente.",
+    "series-finder": "Aplicación web de búsqueda de series que, a través de la API TV Maze, permite buscar series por su título, marcar y desmarcarlas como favoritas y guardarlas en localStorage.",
+    "frida-kards": "Aplicación web interactiva que permite crear una tarjeta de visita personalizada, pudiendo elegir colores, contenido e imagen. Además de compartir la tarjeta creada en Twitter.",
+    "surrender": "Refactorización de código heredado, implementando React para dividir el código en componentes y mejorar las interacciones de los usuarios.",
+    "ninja-coders": "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
+    "hangman": "Desarrollo del juego del ahorcado, donde la persona debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
+    "guess-number": "El juego consiste en que el programa genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
+    "to-do": "Aplicación web para la gestión de tareas. La página consta de un input y un botón para añadir nuevas tareas, marcarlas como completadas o borrarlas, además de tener la opción de filtrar por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas."
+  },
+
+  "contact": {
+    "title": "¿Hablamos?",
+    "text": "Si quieres hablar sobre desarrollo web, darme feedback sobre mis proyectos o simplemente decir hola 😄, puedes escribirme un email o contactarme a través de LinkedIn, Github o Twitter. Además, estoy buscando mi primera oportunidad laboral como desarrolladora frontend, así que si crees que mi perfil puede encajar con lo que buscas, no dudes en ponerte en contacto conmigo. ¡Gracias y hasta pronto!"
+  }
+}

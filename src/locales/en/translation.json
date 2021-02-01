@@ -1,0 +1,40 @@
+{
+  "header": {
+    "small": "Hello World",
+    "menu-aboutme": "About me",
+    "menu-aboutme-alt": "Go to Cristina section",
+    "menu-projects": "Projects",
+    "menu-projects-alt": "Go to projects section",
+    "menu-contact": "Contact",
+    "menu-contact-alt": "Go to contact section",
+    "linkedin": "Go to LinkedIn",
+    "github": "Go to github",
+    "twitter": "Go to twitter"
+  },
+
+  "aboutme": {
+    "title": "About me",
+    "img-alt": "Photo of Cristina García",
+    "text1": "Audiovisual communicator turned frontend developer. I like to face new challenges with optimism and perspective. I have worked in different fields, in the public and private sectors, both in agencies and clients, fostering my ability to adapt to different environments and demands. My professional experience in multidisciplinary teams makes me an alert, active and committed person.",
+    "text2": "After my experience improving the organic positioning of websites, I found another way of communication: programming. That's how I landed in Adalab, where I have discovered an exciting world full of possibilities that motivates me to improve day by day."
+  },
+
+  "projects": {
+    "title": "My projects",
+    "github-alt": "View the repository",
+    "web-alt": "View the website",
+    "rick-morty": "Search engine for characters from the Rick and Morty series that allows you to filter by name and access a detailed description of each one using React Router. You can also filter by species and sort the results alphabetically.",
+    "series-finder": "Web series search application that, through the TV Maze API, allows you to search for series by title, mark and unmark them as favourites and save them in localStorage.",
+    "frida-kards": "Interactive web application that allows you to create a personalised business card, choosing colours, contents and image. You can also share the created card on Twitter.",
+    "surrender": "Refactoring of legacy code, implementing React to split the code into components and improve user interactions.",
+    "ninja-coders": "Responsive group website to present the team. Designed in mobile first, it contains a brief description of each of the team members and a contact form.",
+    "hangman": "Development of the hangman game, where the person must guess a word chosen at random. Game made in vanilla JavaScript adapted to mobile devices.",
+    "guess-number": "The game consists of the programme generating a random number between 1 and 100, and the player has to guess it. The game gives clues as to whether the number she tries is too high or too low, and counts the number of tries.",
+    "to-do": "Web application for task management. The page consists of an input and a button to add new tasks, mark them as completed or delete them, as well as having the option to filter by completed, uncompleted or all. In addition, the use of localStorage has been implemented to save the tasks."
+  },
+
+  "contact": {
+    "title": "Let's talk!",
+    "text": "If you want to talk about web development, give me feedback about my projects or just say hello 😄, you can write me an email or contact me through LinkedIn, Github or Twitter. Also, I'm looking for my first job opportunity as a frontend developer, so if you think my profile might fit what you're looking for, don't hesitate to contact me, thanks and see you soon!"
+  }
+}
