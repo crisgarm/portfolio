@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.b0fa92ee.chunk.css",
-    "main.js": "./static/js/main.ef015277.chunk.js",
-    "main.js.map": "./static/js/main.ef015277.chunk.js.map",
+    "main.css": "./static/css/main.ef568623.chunk.css",
+    "main.js": "./static/js/main.6f5e4f2d.chunk.js",
+    "main.js.map": "./static/js/main.6f5e4f2d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b53c4826.js",
     "runtime-main.js.map": "./static/js/runtime-main.b53c4826.js.map",
-    "static/js/2.262c108e.chunk.js": "./static/js/2.262c108e.chunk.js",
-    "static/js/2.262c108e.chunk.js.map": "./static/js/2.262c108e.chunk.js.map",
+    "static/js/2.7791ccf4.chunk.js": "./static/js/2.7791ccf4.chunk.js",
+    "static/js/2.7791ccf4.chunk.js.map": "./static/js/2.7791ccf4.chunk.js.map",
     "static/js/3.e5f2e93e.chunk.js": "./static/js/3.e5f2e93e.chunk.js",
     "static/js/3.e5f2e93e.chunk.js.map": "./static/js/3.e5f2e93e.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.b0fa92ee.chunk.css.map": "./static/css/main.b0fa92ee.chunk.css.map",
-    "static/js/2.262c108e.chunk.js.LICENSE.txt": "./static/js/2.262c108e.chunk.js.LICENSE.txt",
+    "static/css/main.ef568623.chunk.css.map": "./static/css/main.ef568623.chunk.css.map",
+    "static/js/2.7791ccf4.chunk.js.LICENSE.txt": "./static/js/2.7791ccf4.chunk.js.LICENSE.txt",
     "static/media/cristina-garcia-martin.69832373.jpg": "./static/media/cristina-garcia-martin.69832373.jpg",
     "static/media/project-01-rick-morty.ffcf89cb.PNG": "./static/media/project-01-rick-morty.ffcf89cb.PNG",
     "static/media/project-02-series-finder.1ac9003d.png": "./static/media/project-02-series-finder.1ac9003d.png",
     "static/media/project-03-frida-kards.60148d3b.PNG": "./static/media/project-03-frida-kards.60148d3b.PNG",
     "static/media/project-04-surrender.85b413e2.PNG": "./static/media/project-04-surrender.85b413e2.PNG",
-    "static/media/project-05-ninja-coders.075d5052.PNG": "./static/media/project-05-ninja-coders.075d5052.PNG",
+    "static/media/project-05-ninja-coders.075d5052.png": "./static/media/project-05-ninja-coders.075d5052.png",
     "static/media/project-06-hangman-game.45eaeac0.PNG": "./static/media/project-06-hangman-game.45eaeac0.PNG",
     "static/media/project-07-guess-number.5b6eca3a.PNG": "./static/media/project-07-guess-number.5b6eca3a.PNG",
     "static/media/project-08-to-do-list.930dfa97.PNG": "./static/media/project-08-to-do-list.930dfa97.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.b53c4826.js",
-    "static/js/2.262c108e.chunk.js",
-    "static/css/main.b0fa92ee.chunk.css",
-    "static/js/main.ef015277.chunk.js"
+    "static/js/2.7791ccf4.chunk.js",
+    "static/css/main.ef568623.chunk.css",
+    "static/js/main.6f5e4f2d.chunk.js"
   ]
 }
