@@ -15,29 +15,31 @@
   "aboutme": {
     "title": "About me",
     "img-alt": "Photo of Cristina García",
-    "text1": "Audiovisual communicator turned",
+    "text1": "Hi! I'm Cris,",
     "text2": "frontend developer.",
-    "text3": "I like to face new challenges with optimism and perspective. I have worked in different fields, in the public and private sectors, both in agencies and clients, fostering",
-    "text4": " my ability to adapt",
-    "text5": "to different environments and demands. My professional experience in multidisciplinary teams makes me an",
-    "text6": "alert, active and committed person.",
-    "text7": "After my experience improving the organic positioning of websites, I found another way of communication:",
-    "text8": "programming.",
-    "text9": "That's how I landed in Adalab, where I have discovered an exciting world full of possibilities that motivates me to improve day by day."
+    "text3": "I have studied Communication & Marketing and Culture Management. Along the last years I had the chance to work in Digital Marketing in several fields, such as bank, culture and tourism. These experiences had helped me developing my",
+    "text4": "creativity",
+    "text5": "and my",
+    "text6": "ability to adapt",
+    "text7": "to new environments and multidisciplinary teams.",
+    "text8": "After my experience improving the organic positioning of websites, I started researching about how to build websites. This",
+    "text9": "challenge",
+    "text10": "for programming is the reason I landed in Adalab bootcamp, where I have learned about different technologies and methodologies related with front-end development.",
+    "text11": "Below you can check all the technologies I have applied so far in my projects. My new challenges are Angular and TypeScript 😉"
   },
 
   "projects": {
     "title": "My projects",
-    "github-alt": "View the repository",
-    "web-alt": "View the website",
-    "rick-morty": "Search engine for characters from the Rick and Morty series that allows you to filter by name and access a detailed description of each one using React Router. You can also filter by species and sort the results alphabetically.",
-    "series-finder": "Web series search application that, through the TV Maze API, allows you to search for series by title, mark and unmark them as favourites and save them in localStorage.",
+    "github-alt": "Check the repository",
+    "web-alt": "Check the website",
+    "rick-morty": "Search engine for characters from the Rick and Morty series, that allows you to filter by name and access a detailed description of each one using React Router. You can also filter by species and sort the results alphabetically.",
+    "series-finder": "Web series search application that, through the TV Maze API, allows you to look for series by title, mark and unmark them as favourites and save them in localStorage.",
     "frida-kards": "Interactive web application that allows you to create a personalised business card, choosing colours, contents and image. You can also share the created card on Twitter.",
     "surrender": "Refactoring of legacy code, implementing React to split the code into components and improve user interactions.",
     "ninja-coders": "Responsive group website to present the team. Designed in mobile first, it contains a brief description of each of the team members and a contact form.",
-    "hangman": "Development of the hangman game, where the person must guess a word chosen at random. Game made in vanilla JavaScript adapted to mobile devices.",
-    "guess-number": "The game consists of the programme generating a random number between 1 and 100, and the player has to guess it. The game gives clues as to whether the number she tries is too high or too low, and counts the number of tries.",
-    "to-do": "Web application for task management. The page consists of an input and a button to add new tasks, mark them as completed or delete them, as well as having the option to filter by completed, uncompleted or all. In addition, the use of localStorage has been implemented to save the tasks."
+    "hangman": "Development of the hangman game, where the person must guess a word chosen randomly. Game made in vanilla JavaScript adapted to mobile devices.",
+    "guess-number": "Development of a game to guess a number between 1 and 100 that is displayed randomly. The game gives clues as to whether the number she tries is too high or too low, and counts the number of tries.",
+    "to-do": "To-do list application. The user can add new tasks, check them as completed or delete them. In addition, the user has the option to filter the tasks by completed, uncompleted or all. Moreover, the use of localStorage has been implemented to save the tasks."
   },
 
   "contact": {

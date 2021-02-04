@@ -17,13 +17,15 @@ const AboutMe = () => {
             {t("aboutme.text3")}{" "}
             <span className="aboutme__text-span">{t("aboutme.text4")}</span>{" "}
             {t("aboutme.text5")}{" "}
-            <span className="aboutme__text-span">{t("aboutme.text6")}</span>
+            <span className="aboutme__text-span">{t("aboutme.text6")}</span>{" "}
+            {t("aboutme.text7")}
           </p>
           <p className="aboutme__text">
-            {t("aboutme.text7")}{" "}
-            <span className="aboutme__text-span">{t("aboutme.text8")}</span>{" "}
-            {t("aboutme.text9")}
+            {t("aboutme.text8")}{" "}
+            <span className="aboutme__text-span">{t("aboutme.text9")}</span>{" "}
+            {t("aboutme.text10")}
           </p>
+          <p className="aboutme__text">{t("aboutme.text11")} </p>
         </div>
         <div className="aboutme__imgWrapper">
           <img

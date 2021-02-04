@@ -8,22 +8,24 @@
     "menu-contact": "Contacto",
     "menu-contact-alt": "Ir a la sección de contacto",
     "linkedin": "Ir a LinkedIn",
-    "github": "Ir a github",
-    "twitter": "Ir a twitter"
+    "github": "Ir a Github",
+    "twitter": "Ir a Twitter"
   },
 
   "aboutme": {
     "title": "Sobre mí",
     "img-alt": "Foto de Cristina García",
-    "text1": "Comunicadora audiovisual reconvertida en",
+    "text1": "¡Hola! Soy Cris,",
     "text2": "desarrolladora frontend.",
-    "text3": "Me gusta afrontar nuevos retos con optimismo y perspectiva. He trabajado en distintos ámbitos, en el sector público y en el privado, tanto en agencia como en cliente, fomentando mi",
-    "text4": "capacidad de adaptación",
-    "text5": "a diferentes entornos y exigencias. Mi experiencia profesional en equipos multidisciplinares me convierte en una persona",
-    "text6": "despierta, activa y comprometida.",
-    "text7": " Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, encontré otra forma de comunicación: la",
-    "text8": "programación.",
-    "text9": "Así aterricé en Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día."
+    "text3": "Anteriormente, estudié Comunicación Audiovisual, Marketing y Gestión Cultural y durante varios años tuve la oportunidad de trabajar en marketing digital en diversos sectores como banca, cultura y turismo, experiencias que han fomentado mi",
+    "text4": "creatividad",
+    "text5": "y mi",
+    "text6": "capacidad de adaptación",
+    "text7": "a diferentes entornos y a equipos multidisciplinares.",
+    "text8": "Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, empecé a investigar cómo crear esas páginas. Fue esta",
+    "text9": "inquietud",
+    "text10": "la que me llevó al bootcamp de Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día.",
+    "text11": "A continuación, podéis ver las tecnologías que he utilizado hasta ahora en mis proyectos. El próximo reto: Angular y TypeScript. 😉"
   },
 
   "projects": {
@@ -35,9 +37,9 @@
     "frida-kards": "Aplicación web interactiva que permite crear una tarjeta de visita personalizada, pudiendo elegir colores, contenido e imagen. Además de compartir la tarjeta creada en Twitter.",
     "surrender": "Refactorización de código heredado, implementando React para dividir el código en componentes y mejorar las interacciones de los usuarios.",
     "ninja-coders": "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
-    "hangman": "Desarrollo del juego del ahorcado, donde la persona debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
-    "guess-number": "El juego consiste en que el programa genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
-    "to-do": "Aplicación web para la gestión de tareas. La página consta de un input y un botón para añadir nuevas tareas, marcarlas como completadas o borrarlas, además de tener la opción de filtrar por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas."
+    "hangman": "Desarrollo del juego del ahorcado, donde el usuario debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
+    "guess-number": "Desarrollo de un juego para adivinar un número mostrado por el programa al azar. El sistema genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
+    "to-do": "Aplicación web para la gestión de tareas. El usuario puede añadir nuevas tareas, marcarlas como completadas o borrarlas. También puede filtrar sus tareas por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas."
   },
 
   "contact": {
