@@ -1,6 +1,7 @@
 {
   "header": {
     "small": "Hello World",
+    "title": "Frontend developer",
     "menu-aboutme": "About me",
     "menu-aboutme-alt": "Go to Cristina section",
     "menu-projects": "Projects",

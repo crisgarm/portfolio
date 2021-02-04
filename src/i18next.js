@@ -2,8 +2,8 @@ import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
-import translationES from "./locales/es/translation.json";
-import translationEN from "./locales/en/translation.json";
+import langES from "./locales/es/lang.json";
+import langEN from "./locales/en/lang.json";
 
 i18n
   .use(Backend)
@@ -12,10 +12,10 @@ i18n
   .init({
     resources: {
       es: {
-        translation: translationES,
+        translation: langES,
       },
       en: {
-        translation: translationEN,
+        translation: langEN,
       },
     },
     lng: "es",

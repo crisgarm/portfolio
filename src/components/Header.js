@@ -41,7 +41,7 @@ const Header = (props) => {
             &lt;{t("header.small")}/&gt;
           </span>
           <h2 className="hero__wrapper-subtitle">Cristina García Martín</h2>
-          <h1 className="hero__wrapper-title">Frontend developer</h1>
+          <h1 className="hero__wrapper-title">{t("header.title")}</h1>
         </div>
         <ul className="hero__menu">
           <li className="hero__menu-item">
