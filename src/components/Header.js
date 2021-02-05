@@ -14,27 +14,37 @@ const Header = (props) => {
 
   return (
     <header className="header">
-      <label className="header__switch-label">
-        <input
-          className="header__switch-input"
-          type="checkbox"
-          onChange={handleChange}
-          checked={props.value}
-        />
-        <span className="header__switch-slider round">
-          <i className="fas fa-sun"></i>
-          <i className="fas fa-moon"></i>
-        </span>
-      </label>
-      <div>
-        <button type="button" onClick={() => i18n.changeLanguage("es")}>
-          ES
-        </button>
-        <button type="button" onClick={() => i18n.changeLanguage("en")}>
-          EN
-        </button>
-      </div>
-      <Navbar />
+      <section className="menu">
+        <div className="menu__wrapper">
+          <label className="menu__switch-label">
+            <input
+              className="menu__switch-input"
+              type="checkbox"
+              onChange={handleChange}
+              checked={props.value}
+            />
+            <span className="menu__switch-slider round">
+              <i className="fas fa-sun"></i>
+              <i className="fas fa-moon"></i>
+            </span>
+          </label>
+          <div>
+            <button
+              className="menu__button"
+              onClick={() => i18n.changeLanguage("es")}
+            >
+              ES
+            </button>
+            <button
+              className="menu__button"
+              onClick={() => i18n.changeLanguage("en")}
+            >
+              EN
+            </button>
+          </div>
+        </div>
+        <Navbar />
+      </section>
       <section className="hero">
         <div className="hero__wrapper">
           <span className="hero__wrapper-span">
