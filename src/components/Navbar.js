@@ -49,11 +49,11 @@ const Navbar = () => {
           </HashLink>
         </li>
       </ul>
-      <div onClick={handleClickBurguerButton} className="header__burguer">
+      <button onClick={handleClickBurguerButton} className="header__burguer">
         <div className={`header__burguer-1 ${isOpen ? "change" : ""}`}></div>
         <div className={`header__burguer-2 ${isOpen ? "change" : ""}`}></div>
         <div className={`header__burguer-3 ${isOpen ? "change" : ""}`}></div>
-      </div>
+      </button>
     </nav>
   );
 };

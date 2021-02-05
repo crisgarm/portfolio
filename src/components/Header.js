@@ -3,7 +3,6 @@ import { HashLink } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
 import Navbar from "./Navbar";
 import "../stylesheets/Header.scss";
-import "../stylesheets/Switch.scss";
 
 const Header = (props) => {
   const handleChange = () => {

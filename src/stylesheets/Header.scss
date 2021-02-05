@@ -128,8 +128,6 @@ input:checked + .menu__switch-slider:before {
       flex-direction: row;
       justify-content: flex-end;
       height: 0;
-      // transform: translateY(0%);
-      // transition: transform 0s ease-in;
     }
 
     &-item {
@@ -188,6 +186,8 @@ input:checked + .menu__switch-slider:before {
     cursor: pointer;
     transition: all 250ms ease-in-out;
     margin-right: 15px;
+    background-color: transparent;
+    border: none;
 
     &-1,
     &-2,
@@ -210,7 +210,7 @@ input:checked + .menu__switch-slider:before {
 }
 
 .change.header__burguer-1 {
-  transform: rotate(-45deg) translate(3px, -2px);
+  transform: rotate(-45deg) translate(-5px, 6px);
   position: absolute;
 }
 
@@ -219,14 +219,8 @@ input:checked + .menu__switch-slider:before {
 }
 
 .change.header__burguer-3 {
-  transform: rotate(45deg) translate(-7px, -8px);
+  transform: rotate(45deg) translate(0px, -1px);
 }
-
-// @media screen and (max-width: 768px) {
-//   body {
-//     overflow-x: hidden;
-//   }
-// }
 
 .hero {
   width: 100%;
