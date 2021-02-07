@@ -10,7 +10,9 @@
     "menu-contact-alt": "Go to contact section",
     "linkedin": "Go to LinkedIn",
     "github": "Go to Github",
-    "twitter": "Go to Twitter"
+    "twitter": "Go to Twitter",
+    "langES": "Change the language of the website to Spanish",
+    "langEN": "Change the language of the website to English"
   },
 
   "aboutme": {

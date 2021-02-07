@@ -15,8 +15,10 @@ const Header = (props) => {
     <header className="header">
       <section className="menu">
         <div className="menu__wrapper">
-          <label className="menu__switch-label">
+          <label className="menu__switch-label" for="switchmode">
             <input
+              id="switchmode"
+              name="switchmode"
               className="menu__switch-input"
               type="checkbox"
               onChange={handleChange}
@@ -29,12 +31,14 @@ const Header = (props) => {
           </label>
           <div>
             <button
+              aria-label={t("header.langES")}
               className="menu__button"
               onClick={() => i18n.changeLanguage("es")}
             >
               ES
             </button>
             <button
+              aria-label={t("header.langEN")}
               className="menu__button"
               onClick={() => i18n.changeLanguage("en")}
             >
