@@ -1,18 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../stylesheets/Contact.scss";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="contact" id="contact">
-      <h2 className="contact__title">¿Hablamos?</h2>
-      <p className="contact__text">
-        Si quieres hablar sobre desarrollo web, darme feedback sobre mis
-        proyectos o simplemente decir hola 😄, puedes escribirme un email o
-        contactarme a través de LinkedIn, Github o Twitter. Además, estoy
-        buscando mi primera oportunidad laboral como desarrolladora frontend,
-        así que si crees que mi perfil puede encajar con lo que buscas, no dudes
-        en ponerte en contacto conmigo. ¡Gracias y hasta pronto!
-      </p>
+      <h2 className="contact__title">{t("contact.title")}</h2>
+      <p className="contact__text">{t("contact.text")}</p>
       <ul className="contact__menu">
         <li className="contact__menu-item">
           <a
@@ -20,7 +16,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
-            title="Ir a LinkedIn"
+            title={t("header.linkedin")}
           >
             <small>crisgarm</small>
             <i className="fab fa-linkedin-in contact__menu-link-icon"></i>
@@ -32,7 +28,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
-            title="Ir a Github"
+            title={t("header.github")}
           >
             <small>crisgarm</small>
             <i className="fab fa-github contact__menu-link-icon"></i>
@@ -56,7 +52,7 @@ const Contact = () => {
             className="contact__menu-link"
             target="_blank"
             rel="noreferrer"
-            title="Ir a Twitter"
+            title={t("header.twitter")}
           >
             <small>Cris_Gar_Mar</small>
             <i className="fab fa-twitter contact__menu-link-icon"></i>

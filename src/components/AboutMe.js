@@ -1,39 +1,37 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import imgAboutme from "../images/cristina-garcia-martin.jpg";
 import "../stylesheets/AboutMe.scss";
 
 const AboutMe = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="aboutme" id="aboutme">
-      <h2 className="aboutme__title">Sobre mí</h2>
+      <h2 className="aboutme__title">{t("aboutme.title")}</h2>
       <div className="aboutme__wrapper">
         <div className="aboutme__textWrapper">
           <p className="aboutme__text">
-            Comunicadora audiovisual reconvertida en{" "}
-            <span className="aboutme__text-span">desarrolladora frontend.</span>{" "}
-            Me gusta afrontar nuevos retos con optimismo y perspectiva. He
-            trabajado en distintos ámbitos, en el sector público y en el
-            privado, tanto en agencia como en cliente, fomentando mi{" "}
-            <span className="aboutme__text-span">capacidad de adaptación</span>{" "}
-            a diferentes entornos y exigencias. Mi experiencia profesional en
-            equipos multidisciplinares me convierte en una persona{" "}
-            <span className="aboutme__text-span">
-              despierta, activa y comprometida.
-            </span>
+            {t("aboutme.text1")}{" "}
+            <span className="aboutme__text-span">{t("aboutme.text2")}</span>{" "}
+            {t("aboutme.text3")}{" "}
+            <span className="aboutme__text-span">{t("aboutme.text4")}</span>{" "}
+            {t("aboutme.text5")}{" "}
+            <span className="aboutme__text-span">{t("aboutme.text6")}</span>{" "}
+            {t("aboutme.text7")}
           </p>
           <p className="aboutme__text">
-            Tras mi experiencia mejorando el posicionamiento orgánico de sitios
-            web, encontré otra forma de comunicación: la{" "}
-            <span className="aboutme__text-span">programación.</span> Así
-            aterricé en Adalab, donde he descubierto un mundo apasionante lleno
-            de posibilidades que me motiva a mejorar día a día.
+            {t("aboutme.text8")}{" "}
+            <span className="aboutme__text-span">{t("aboutme.text9")}</span>{" "}
+            {t("aboutme.text10")}
           </p>
+          <p className="aboutme__text">{t("aboutme.text11")} </p>
         </div>
         <div className="aboutme__imgWrapper">
           <img
             src={imgAboutme}
             className="aboutme__image"
-            alt="Foto de Cristina García"
+            alt={t("aboutme.img-alt")}
             title="Cristina García"
           />
         </div>

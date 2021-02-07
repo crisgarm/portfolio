@@ -1,0 +1,52 @@
+{
+  "header": {
+    "small": "Hello World",
+    "title": "Frontend developer",
+    "menu-aboutme": "About me",
+    "menu-aboutme-alt": "Go to Cristina section",
+    "menu-projects": "Projects",
+    "menu-projects-alt": "Go to projects section",
+    "menu-contact": "Contact",
+    "menu-contact-alt": "Go to contact section",
+    "linkedin": "Go to LinkedIn",
+    "github": "Go to Github",
+    "twitter": "Go to Twitter",
+    "langES": "Change the language of the website to Spanish",
+    "langEN": "Change the language of the website to English"
+  },
+
+  "aboutme": {
+    "title": "About me",
+    "img-alt": "Photo of Cristina García",
+    "text1": "Hi! I'm Cris,",
+    "text2": "frontend developer.",
+    "text3": "I have studied Communication & Marketing and Culture Management. Along the last years I had the chance to work in Digital Marketing in several fields, such as bank, culture and tourism. These experiences had helped me developing my",
+    "text4": "creativity",
+    "text5": "and my",
+    "text6": "ability to adapt",
+    "text7": "to new environments and multidisciplinary teams.",
+    "text8": "After my experience improving the organic positioning of websites, I started researching about how to build websites. This",
+    "text9": "challenge",
+    "text10": "for programming is the reason I landed in Adalab bootcamp, where I have learned about different technologies and methodologies related with front-end development.",
+    "text11": "Below you can check all the technologies I have applied so far in my projects. My new challenges are Angular and TypeScript 😉"
+  },
+
+  "projects": {
+    "title": "My projects",
+    "github-alt": "Check the repository",
+    "web-alt": "Check the website",
+    "rick-morty": "Search engine for characters from the Rick and Morty series, that allows you to filter by name and access a detailed description of each one using React Router. You can also filter by species and sort the results alphabetically.",
+    "series-finder": "Web series search application that, through the TV Maze API, allows you to look for series by title, mark and unmark them as favourites and save them in localStorage.",
+    "frida-kards": "Interactive web application that allows you to create a personalised business card, choosing colours, contents and image. You can also share the created card on Twitter.",
+    "surrender": "Refactoring of legacy code, implementing React to split the code into components and improve user interactions.",
+    "ninja-coders": "Responsive group website to present the team. Designed in mobile first, it contains a brief description of each of the team members and a contact form.",
+    "hangman": "Development of the hangman game, where the person must guess a word chosen randomly. Game made in vanilla JavaScript adapted to mobile devices.",
+    "guess-number": "Development of a game to guess a number between 1 and 100 that is displayed randomly. The game gives clues as to whether the number she tries is too high or too low, and counts the number of tries.",
+    "to-do": "To-do list application. The user can add new tasks, check them as completed or delete them. In addition, the user has the option to filter the tasks by completed, uncompleted or all. Moreover, the use of localStorage has been implemented to save the tasks."
+  },
+
+  "contact": {
+    "title": "Let's talk!",
+    "text": "If you want to talk about web development, give me feedback about my projects or just say hello 😄, you can write me an email or contact me through LinkedIn, Github or Twitter. Also, I'm looking for my first job opportunity as a frontend developer, so if you think my profile might fit what you're looking for, don't hesitate to contact me, thanks and see you soon!"
+  }
+}

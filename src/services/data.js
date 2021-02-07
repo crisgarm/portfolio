@@ -11,8 +11,7 @@ const DATA = [
   {
     id: 1,
     title: "Rick and Morty character finder",
-    description:
-      "Buscador de personajes de la serie Rick y Morty que permite filtrar por nombre y acceder a una ficha detalle de cada uno mediante el uso de React Router. Además, se puede filtrar por especie y ordenar los resultados alfabéticamente.",
+    description: "projects.rick-morty",
     image: RickMortyImg,
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/rick-morty-characters-finder",
@@ -21,8 +20,7 @@ const DATA = [
   {
     id: 2,
     title: "Series finder",
-    description:
-      "Aplicación web de búsqueda de series que, a través de la API TV Maze, permite buscar series por su título, marcar y desmarcarlas como favoritas y guardarlas en localStorage.",
+    description: "projects.series-finder",
     image: SeriesFinderImg,
     skills: ["HTML", "SASS", "JS"],
     githubLink: "https://github.com/crisgarm/series-finder",
@@ -31,8 +29,7 @@ const DATA = [
   {
     id: 3,
     title: "Frida Kards",
-    description:
-      "Aplicación web interactiva que permite crear una tarjeta de visita personalizada, pudiendo elegir colores, contenido e imagen. Además de compartir la tarjeta creada en Twitter.",
+    description: "projects.frida-kards",
     image: FridaKardsImg,
     skills: ["HTML", "SASS", "JS"],
     githubLink: "https://github.com/crisgarm/project-promo-k-module-2-team-8",
@@ -41,8 +38,7 @@ const DATA = [
   {
     id: 4,
     title: "<!SURRENDER/>",
-    description:
-      "Refactorización de código heredado, implementando React para dividir el código en componentes y mejorar las interacciones de los usuarios.",
+    description: "projects.surrender",
     image: SurrenderImg,
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/project-promo-k-module-3-team-5",
@@ -51,8 +47,7 @@ const DATA = [
   {
     id: 5,
     title: "Ninja Coders",
-    description:
-      "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
+    description: "projects.ninja-coders",
     image: NinjaCodersImg,
     skills: ["HTML", "CSS", "SASS"],
     githubLink: "https://github.com/crisgarm/ninja-coders",
@@ -61,8 +56,7 @@ const DATA = [
   {
     id: 6,
     title: "Hangman game",
-    description:
-      "Desarrollo del juego del ahorcado, donde la persona debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
+    description: "projects.hangman",
     image: HangmanGameImg,
     skills: ["HTML", "CSS", "JS"],
     githubLink: "https://github.com/crisgarm/hangman-game",
@@ -71,8 +65,7 @@ const DATA = [
   {
     id: 7,
     title: "Guess the number",
-    description:
-      "El juego consiste en que el programa genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
+    description: "projects.guess-number",
     image: GuessTheNumber,
     skills: ["HTML", "CSS", "JS"],
     githubLink: "https://github.com/crisgarm/guess-the-number",
@@ -81,8 +74,7 @@ const DATA = [
   {
     id: 8,
     title: "To-Do List App",
-    description:
-      "Aplicación web para la gestión de tareas. La página consta de un input y un botón para añadir nuevas tareas, marcarlas como completadas o borrarlas, además de tener la opción de filtrar por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas.",
+    description: "projects.to-do",
     image: ToDoList,
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/to-do",
