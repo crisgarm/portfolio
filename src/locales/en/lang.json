@@ -40,8 +40,6 @@
     "frida-kards": "Interactive web application that allows you to create a personalised business card, choosing colours, contents and image. You can also share the created card on Twitter.",
     "surrender": "Refactoring of legacy code, implementing React to split the code into components and improve user interactions.",
     "ninja-coders": "Responsive group website to present the team. Designed in mobile first, it contains a brief description of each of the team members and a contact form.",
-    "hangman": "Development of the hangman game, where the person must guess a word chosen randomly. Game made in vanilla JavaScript adapted to mobile devices.",
-    "guess-number": "Development of a game to guess a number between 1 and 100 that is displayed randomly. The game gives clues as to whether the number she tries is too high or too low, and counts the number of tries.",
     "to-do": "To-do list application. The user can add new tasks, check them as completed or delete them. In addition, the user has the option to filter the tasks by completed, uncompleted or all. Moreover, the use of localStorage has been implemented to save the tasks."
   },
 

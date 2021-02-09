@@ -40,8 +40,6 @@
     "frida-kards": "Aplicación web interactiva que permite crear una tarjeta de visita personalizada, pudiendo elegir colores, contenido e imagen. Además de compartir la tarjeta creada en Twitter.",
     "surrender": "Refactorización de código heredado, implementando React para dividir el código en componentes y mejorar las interacciones de los usuarios.",
     "ninja-coders": "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
-    "hangman": "Desarrollo del juego del ahorcado, donde el usuario debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
-    "guess-number": "Desarrollo de un juego para adivinar un número mostrado por el programa al azar. El sistema genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
     "to-do": "Aplicación web para la gestión de tareas. El usuario puede añadir nuevas tareas, marcarlas como completadas o borrarlas. También puede filtrar sus tareas por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas."
   },
 
