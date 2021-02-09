@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.3221415a.chunk.css",
-    "main.js": "./static/js/main.e4e20d6d.chunk.js",
-    "main.js.map": "./static/js/main.e4e20d6d.chunk.js.map",
+    "main.js": "./static/js/main.3c123752.chunk.js",
+    "main.js.map": "./static/js/main.3c123752.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.1d7c407f.js",
     "runtime-main.js.map": "./static/js/runtime-main.1d7c407f.js.map",
     "static/js/2.612afe79.chunk.js": "./static/js/2.612afe79.chunk.js",
@@ -18,15 +18,13 @@
     "static/media/project-02-series-finder.1ac9003d.png": "./static/media/project-02-series-finder.1ac9003d.png",
     "static/media/project-03-frida-kards.60148d3b.PNG": "./static/media/project-03-frida-kards.60148d3b.PNG",
     "static/media/project-04-surrender.85b413e2.PNG": "./static/media/project-04-surrender.85b413e2.PNG",
-    "static/media/project-05-ninja-coders.075d5052.png": "./static/media/project-05-ninja-coders.075d5052.png",
-    "static/media/project-06-hangman-game.45eaeac0.PNG": "./static/media/project-06-hangman-game.45eaeac0.PNG",
-    "static/media/project-07-guess-number.5b6eca3a.PNG": "./static/media/project-07-guess-number.5b6eca3a.PNG",
+    "static/media/project-05-ninja-coders.d8e40265.PNG": "./static/media/project-05-ninja-coders.d8e40265.PNG",
     "static/media/project-08-to-do-list.930dfa97.PNG": "./static/media/project-08-to-do-list.930dfa97.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.1d7c407f.js",
     "static/js/2.612afe79.chunk.js",
     "static/css/main.3221415a.chunk.css",
-    "static/js/main.e4e20d6d.chunk.js"
+    "static/js/main.3c123752.chunk.js"
   ]
 }
