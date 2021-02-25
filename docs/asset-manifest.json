@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.3221415a.chunk.css",
-    "main.js": "./static/js/main.3c123752.chunk.js",
-    "main.js.map": "./static/js/main.3c123752.chunk.js.map",
+    "main.css": "./static/css/main.ad167526.chunk.css",
+    "main.js": "./static/js/main.b3e8db47.chunk.js",
+    "main.js.map": "./static/js/main.b3e8db47.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.1d7c407f.js",
     "runtime-main.js.map": "./static/js/runtime-main.1d7c407f.js.map",
     "static/js/2.612afe79.chunk.js": "./static/js/2.612afe79.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.88a9c8ed.chunk.js": "./static/js/3.88a9c8ed.chunk.js",
     "static/js/3.88a9c8ed.chunk.js.map": "./static/js/3.88a9c8ed.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.3221415a.chunk.css.map": "./static/css/main.3221415a.chunk.css.map",
+    "static/css/main.ad167526.chunk.css.map": "./static/css/main.ad167526.chunk.css.map",
     "static/js/2.612afe79.chunk.js.LICENSE.txt": "./static/js/2.612afe79.chunk.js.LICENSE.txt",
     "static/media/cristina-garcia-martin.69832373.jpg": "./static/media/cristina-garcia-martin.69832373.jpg",
     "static/media/getFetch.cjs": "./static/media/getFetch.d7d6010d.cjs",
@@ -19,12 +19,14 @@
     "static/media/project-03-frida-kards.60148d3b.PNG": "./static/media/project-03-frida-kards.60148d3b.PNG",
     "static/media/project-04-surrender.85b413e2.PNG": "./static/media/project-04-surrender.85b413e2.PNG",
     "static/media/project-05-ninja-coders.d8e40265.PNG": "./static/media/project-05-ninja-coders.d8e40265.PNG",
-    "static/media/project-08-to-do-list.930dfa97.PNG": "./static/media/project-08-to-do-list.930dfa97.PNG"
+    "static/media/project-06-to-do-list.930dfa97.PNG": "./static/media/project-06-to-do-list.930dfa97.PNG",
+    "static/media/project-07-hangman-game.45eaeac0.PNG": "./static/media/project-07-hangman-game.45eaeac0.PNG",
+    "static/media/project-08-countries-app.538e7853.PNG": "./static/media/project-08-countries-app.538e7853.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.1d7c407f.js",
     "static/js/2.612afe79.chunk.js",
-    "static/css/main.3221415a.chunk.css",
-    "static/js/main.3c123752.chunk.js"
+    "static/css/main.ad167526.chunk.css",
+    "static/js/main.b3e8db47.chunk.js"
   ]
 }
