@@ -3,7 +3,9 @@ import SeriesFinderImg from "../images/project-02-series-finder.png";
 import FridaKardsImg from "../images/project-03-frida-kards.PNG";
 import SurrenderImg from "../images/project-04-surrender.PNG";
 import NinjaCodersImg from "../images/project-05-ninja-coders.png";
-import ToDoList from "../images/project-08-to-do-list.PNG";
+import ToDoList from "../images/project-06-to-do-list.PNG";
+import HangmanGameImg from "../images/project-07-hangman-game.PNG";
+import CountriesAppImg from "../images/project-08-countries-app.PNG";
 
 const DATA = [
   {
@@ -59,6 +61,24 @@ const DATA = [
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/to-do",
     webLink: "https://crisgarm.github.io/to-do/",
+  },
+  {
+    id: 7,
+    title: "Hangman game",
+    description: "projects.hangman",
+    image: HangmanGameImg,
+    skills: ["HTML", "CSS", "JS"],
+    githubLink: "https://github.com/crisgarm/hangman-game",
+    webLink: "https://crisgarm.github.io/hangman-game/",
+  },
+  {
+    id: 8,
+    title: "Countries App",
+    description: "projects.countries",
+    image: CountriesAppImg,
+    skills: ["HTML", "CSS", "ANGULAR"],
+    githubLink: "https://github.com/crisgarm/countries-app",
+    webLink: "https://crisgarm.github.io/countries-app/",
   },
 ];
 

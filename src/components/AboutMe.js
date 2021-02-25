@@ -44,7 +44,7 @@ const AboutMe = () => {
         <i className="aboutme__skills-icon icon-react fab fa-react"></i>
         <i className="aboutme__skills-icon icon-git fab fa-git-alt"></i>
         <i className="aboutme__skills-icon icon-gulp fab fa-gulp"></i>
-        <i className="aboutme__skills-icon icon-node fab fa-node"></i>
+        <i className="aboutme__skills-icon icon-angular fab fa-angular"></i>
       </div>
     </section>
   );

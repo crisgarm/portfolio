@@ -28,7 +28,7 @@
     "text8": "Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, empecé a investigar cómo crear esas páginas. Fue esta",
     "text9": "inquietud",
     "text10": "la que me llevó al bootcamp de Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día.",
-    "text11": "A continuación, podéis ver las tecnologías que he utilizado hasta ahora en mis proyectos. El próximo reto: Angular y TypeScript. 😉"
+    "text11": "A continuación, podéis ver las tecnologías que he utilizado hasta ahora en mis proyectos. Actualmente, realizando un curso de Angular. 😉"
   },
 
   "projects": {
@@ -40,7 +40,9 @@
     "frida-kards": "Aplicación web interactiva que permite crear una tarjeta de visita personalizada, pudiendo elegir colores, contenido e imagen. Además de compartir la tarjeta creada en Twitter.",
     "surrender": "Refactorización de código heredado, implementando React para dividir el código en componentes y mejorar las interacciones de los usuarios.",
     "ninja-coders": "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
-    "to-do": "Aplicación web para la gestión de tareas. El usuario puede añadir nuevas tareas, marcarlas como completadas o borrarlas. También puede filtrar sus tareas por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas."
+    "to-do": "Aplicación web para la gestión de tareas. El usuario puede añadir nuevas tareas, marcarlas como completadas o borrarlas. También puede filtrar sus tareas por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas.",
+    "hangman": "Desarrollo del juego del ahorcado, donde el usuario debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
+    "countries": "Desarrollo de una SPA de búsqueda de países con Angular a través de una API, pudiendo buscar por país, por capital o por región, además de acceder a una ficha con los detalles de cada país mediante el uso de RouterModule."
   },
 
   "contact": {

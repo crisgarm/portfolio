@@ -213,20 +213,20 @@
   transition: all 0.5s ease;
 }
 
-.icon-node:hover::before {
-  color: #91c441;
+.icon-angular:hover::before {
+  color: #d5002e;
   transition: all 0.5s ease;
 }
 
-.icon-node::after {
-  content: "Node.js";
+.icon-angular::after {
+  content: "Angular";
   opacity: 0;
   font-size: 14px;
   font-family: $fontFamilyText;
   padding-top: 8px;
 }
 
-.icon-node:hover::after {
+.icon-angular:hover::after {
   opacity: 1;
   transition: all 0.5s ease;
 }

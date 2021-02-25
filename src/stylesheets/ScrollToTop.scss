@@ -5,7 +5,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 2px solid $colorTertiary;
+  border: 2px solid var(--theme-color-tertiary);
   cursor: pointer;
   display: flex;
   align-items: center;
