@@ -102,7 +102,7 @@ const Header = (props) => {
             </a>
           </li>
         </ul>
-        <HashLink to="#aboutme">
+        <HashLink to="#aboutme" aria-label="Ir a la sección sobre Cristina">
           <i className=" hero__arrow fas fa-angle-double-down"></i>
         </HashLink>
       </section>

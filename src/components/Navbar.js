@@ -53,6 +53,7 @@ const Navbar = () => {
         onClick={handleClickBurguerButton}
         className="header__burguer"
         aria-label="Menu"
+        aria-expanded={isOpen ? "true" : "false"}
       >
         <div className={`header__burguer-1 ${isOpen ? "change" : ""}`}></div>
         <div className={`header__burguer-2 ${isOpen ? "change" : ""}`}></div>

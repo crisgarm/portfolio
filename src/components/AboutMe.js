@@ -37,14 +37,46 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="aboutme__skills">
-        <i className="aboutme__skills-icon icon-html fab fa-html5"></i>
-        <i className="aboutme__skills-icon icon-css fab fa-css3-alt"></i>
-        <i className="aboutme__skills-icon icon-sass fab fa-sass"></i>
-        <i className="aboutme__skills-icon icon-js fab fa-js"></i>
-        <i className="aboutme__skills-icon icon-react fab fa-react"></i>
-        <i className="aboutme__skills-icon icon-git fab fa-git-alt"></i>
-        <i className="aboutme__skills-icon icon-gulp fab fa-gulp"></i>
-        <i className="aboutme__skills-icon icon-angular fab fa-angular"></i>
+        <i
+          className="aboutme__skills-icon icon-html fab fa-html5"
+          title="Html5"
+        ></i>
+        <span class="sr-only">Html5</span>
+        <i
+          className="aboutme__skills-icon icon-css fab fa-css3-alt"
+          title="Css3"
+        ></i>
+        <span class="sr-only">Css3</span>
+        <i
+          className="aboutme__skills-icon icon-sass fab fa-sass"
+          title="Sass"
+        ></i>
+        <span class="sr-only">Sass</span>
+        <i
+          className="aboutme__skills-icon icon-js fab fa-js"
+          title="JavaScript"
+        ></i>
+        <span class="sr-only">JavaScript</span>
+        <i
+          className="aboutme__skills-icon icon-react fab fa-react"
+          title="React"
+        ></i>
+        <span class="sr-only">React</span>
+        <i
+          className="aboutme__skills-icon icon-git fab fa-git-alt"
+          title="Git"
+        ></i>
+        <span class="sr-only">Git</span>
+        <i
+          className="aboutme__skills-icon icon-gulp fab fa-gulp"
+          title="Gulp"
+        ></i>
+        <span class="sr-only">Gulp</span>
+        <i
+          className="aboutme__skills-icon icon-angular fab fa-angular"
+          title="Angular"
+        ></i>
+        <span class="sr-only">Angular</span>
       </div>
     </section>
   );
