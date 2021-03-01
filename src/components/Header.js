@@ -15,11 +15,13 @@ const Header = (props) => {
     <header className="header">
       <section className="menu">
         <div className="menu__wrapper">
-          <label className="menu__switch-label" for="switchmode">
+          <label className="menu__switch-label" htmlFor="switchmode">
+            <span class="sr-only">Cambio de modo oscuro</span>
+
             <input
               id="switchmode"
               name="switchmode"
-              className="menu__switch-input"
+              className="sr-only"
               type="checkbox"
               onChange={handleChange}
               checked={props.value}
