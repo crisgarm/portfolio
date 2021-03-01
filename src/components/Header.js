@@ -66,6 +66,9 @@ const Header = (props) => {
               title={t("header.linkedin")}
             >
               <i className="fab fa-linkedin-in hero__menu-item-link-icon"></i>
+              <span class="sr-only">
+                Conoce más sobre mí en LinkedIn (Abre en una ventana nueva)
+              </span>
             </a>
           </li>
           <li className="hero__menu-item">
@@ -77,6 +80,10 @@ const Header = (props) => {
               title={t("header.github")}
             >
               <i className="fab fa-github hero__menu-item-link-icon"></i>
+              <span class="sr-only">
+                Conoce más sobre mis proyectos en Github (Abre en una ventana
+                nueva)
+              </span>
             </a>
           </li>
           <li className="hero__menu-item">
@@ -88,6 +95,10 @@ const Header = (props) => {
               title="Email"
             >
               <i className="far fa-envelope hero__menu-item-link-icon"></i>
+              <span class="sr-only">
+                Contacta conmigo a través de mi email (Abre en una ventana
+                nueva)
+              </span>
             </a>
           </li>
           <li className="hero__menu-item">
@@ -99,6 +110,10 @@ const Header = (props) => {
               title={t("header.twitter")}
             >
               <i className="fab fa-twitter hero__menu-item-link-icon"></i>
+              <span class="sr-only">
+                Ponte en contacto conmigo a través de Twitter (Abre en una
+                ventana nueva)
+              </span>
             </a>
           </li>
         </ul>

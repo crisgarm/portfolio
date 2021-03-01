@@ -20,6 +20,9 @@ const Contact = () => {
           >
             <small>crisgarm</small>
             <i className="fab fa-linkedin-in contact__menu-link-icon"></i>
+            <span class="sr-only">
+              Contacta conmigo en LinkedIn (Abre en una ventana nueva)
+            </span>
           </a>
         </li>
         <li className="contact__menu-item">
@@ -32,6 +35,9 @@ const Contact = () => {
           >
             <small>crisgarm</small>
             <i className="fab fa-github contact__menu-link-icon"></i>
+            <span class="sr-only">
+              Sígueme en Github (Abre en una ventana nueva)
+            </span>
           </a>
         </li>
         <li className="contact__menu-item">
@@ -44,6 +50,9 @@ const Contact = () => {
           >
             <small>crisgarm9@gmail.com</small>
             <i className="far fa-envelope contact__menu-link-icon"></i>
+            <span class="sr-only">
+              Contacta conmigo a través de mi email (Abre en una ventana nueva)
+            </span>
           </a>
         </li>
         <li className="contact__menu-item">
@@ -56,6 +65,9 @@ const Contact = () => {
           >
             <small>Cris_Gar_Mar</small>
             <i className="fab fa-twitter contact__menu-link-icon"></i>
+            <span class="sr-only">
+              Contacta conmigo en Twitter (Abre en una ventana nueva)
+            </span>
           </a>
         </li>
       </ul>

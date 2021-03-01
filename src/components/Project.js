@@ -38,6 +38,9 @@ const Project = (props) => {
             title={t("projects.github-alt")}
           >
             <i className="fab fa-github projects__content-links"></i>
+            <span class="sr-only">
+              Ver el repositorio en Github (Abre en una ventana nueva)
+            </span>
           </a>
           <a
             href={props.projectItem.webLink}
@@ -46,6 +49,9 @@ const Project = (props) => {
             title={t("projects.web-alt")}
           >
             <i className="fas fa-laptop projects__content-links"></i>
+            <span class="sr-only">
+              Ver una demo de la aplicación (Abre en una ventana nueva)
+            </span>
           </a>
         </div>
       </div>

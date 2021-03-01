@@ -30,9 +30,9 @@ const ScrollToTop = () => {
     >
       <i
         className="scroll__arrow fas fa-chevron-up"
-        title="Go to top of the page"
+        title="Ir al inicio de la página"
       ></i>
-      <span class="sr-only">Go to top of the page</span>
+      <span class="sr-only">Ir al inicio de la página</span>
     </div>
   );
 };
