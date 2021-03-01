@@ -289,7 +289,7 @@ input:checked + .menu__switch-slider:before {
       color: var(--theme-text);
       transition: color 750ms;
       &:hover {
-        color: var(--theme-color-tertiary);
+        color: var(--theme-color-hover);
         transition: color 100ms;
       }
     }
