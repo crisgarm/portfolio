@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import "../stylesheets/Projects.scss";
 
 const Project = (props) => {
-  console.log(props);
   const { t } = useTranslation();
 
   const projectSkills = props.projectItem.skills.map((skill, index) => {
