@@ -16,7 +16,7 @@ const Header = (props) => {
       <section className="menu">
         <div className="menu__wrapper">
           <label className="menu__switch-label" htmlFor="switchmode">
-            <span class="sr-only">Cambio de modo oscuro</span>
+            <span className="sr-only">Cambio de modo oscuro</span>
 
             <input
               id="switchmode"
@@ -68,7 +68,7 @@ const Header = (props) => {
               title={t("header.linkedin")}
             >
               <i className="fab fa-linkedin-in hero__menu-item-link-icon"></i>
-              <span class="sr-only">
+              <span className="sr-only">
                 Conoce más sobre mí en LinkedIn (Abre en una ventana nueva)
               </span>
             </a>
@@ -82,7 +82,7 @@ const Header = (props) => {
               title={t("header.github")}
             >
               <i className="fab fa-github hero__menu-item-link-icon"></i>
-              <span class="sr-only">
+              <span className="sr-only">
                 Conoce más sobre mis proyectos en Github (Abre en una ventana
                 nueva)
               </span>
@@ -97,7 +97,7 @@ const Header = (props) => {
               title="Email"
             >
               <i className="far fa-envelope hero__menu-item-link-icon"></i>
-              <span class="sr-only">
+              <span className="sr-only">
                 Contacta conmigo a través de mi email (Abre en una ventana
                 nueva)
               </span>
@@ -112,7 +112,7 @@ const Header = (props) => {
               title={t("header.twitter")}
             >
               <i className="fab fa-twitter hero__menu-item-link-icon"></i>
-              <span class="sr-only">
+              <span className="sr-only">
                 Ponte en contacto conmigo a través de Twitter (Abre en una
                 ventana nueva)
               </span>

@@ -25,6 +25,7 @@ const ScrollToTop = () => {
   return (
     <div
       role="link"
+      tabindex="0"
       className={`scroll ${showScroll ? "" : "hidden"}`}
       onClick={scrollTop}
     >
@@ -32,7 +33,7 @@ const ScrollToTop = () => {
         className="scroll__arrow fas fa-chevron-up"
         title="Ir al inicio de la página"
       ></i>
-      <span class="sr-only">Ir al inicio de la página</span>
+      <span className="sr-only">Ir al inicio de la página</span>
     </div>
   );
 };
