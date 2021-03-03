@@ -34,7 +34,7 @@ const Project = (props) => {
             href={props.projectItem.githubLink}
             target="_blank"
             rel="noreferrer"
-            title={t("projects.github-alt")}
+            title={t(props.projectItem.githubAlt)}
           >
             <i className="fab fa-github projects__content-links"></i>
             <span className="sr-only">
@@ -45,7 +45,7 @@ const Project = (props) => {
             href={props.projectItem.webLink}
             target="_blank"
             rel="noreferrer"
-            title={t("projects.web-alt")}
+            title={t(props.projectItem.webAlt)}
           >
             <i className="fas fa-laptop projects__content-links"></i>
             <span className="sr-only">

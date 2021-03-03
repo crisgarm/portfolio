@@ -16,6 +16,8 @@ const DATA = [
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/rick-morty-characters-finder",
     webLink: "https://crisgarm.github.io/rick-morty-characters-finder/#/",
+    githubAlt: "projects.rick-morty-github-alt",
+    webAlt: "projects.rick-morty-web-alt",
   },
   {
     id: 2,
@@ -25,6 +27,8 @@ const DATA = [
     skills: ["HTML", "SASS", "JS"],
     githubLink: "https://github.com/crisgarm/series-finder",
     webLink: "https://crisgarm.github.io/series-finder/",
+    githubAlt: "projects.series-finder-github-alt",
+    webAlt: "projects.series-finder-web-alt",
   },
   {
     id: 3,
@@ -34,6 +38,8 @@ const DATA = [
     skills: ["HTML", "SASS", "JS"],
     githubLink: "https://github.com/crisgarm/frida-kards",
     webLink: "https://crisgarm.github.io/frida-kards/",
+    githubAlt: "projects.frida-kards-github-alt",
+    webAlt: "projects.frida-kards-web-alt",
   },
   {
     id: 4,
@@ -43,6 +49,8 @@ const DATA = [
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/project-promo-k-module-3-team-5",
     webLink: "https://beta.adalab.es/project-promo-k-module-3-team-5/#/",
+    githubAlt: "projects.surrender-github-alt",
+    webAlt: "projects.surrender-web-alt",
   },
   {
     id: 5,
@@ -52,6 +60,8 @@ const DATA = [
     skills: ["HTML", "CSS", "SASS"],
     githubLink: "https://github.com/crisgarm/ninja-coders",
     webLink: "https://crisgarm.github.io/ninja-coders/",
+    githubAlt: "projects.ninja-coders-github-alt",
+    webAlt: "projects.ninja-coders-web-alt",
   },
   {
     id: 6,
@@ -61,6 +71,8 @@ const DATA = [
     skills: ["HTML", "SASS", "REACT"],
     githubLink: "https://github.com/crisgarm/to-do",
     webLink: "https://crisgarm.github.io/to-do/",
+    githubAlt: "projects.to-do-github-alt",
+    webAlt: "projects.to-do-web-alt",
   },
   {
     id: 7,
@@ -70,6 +82,8 @@ const DATA = [
     skills: ["HTML", "CSS", "JS"],
     githubLink: "https://github.com/crisgarm/hangman-game",
     webLink: "https://crisgarm.github.io/hangman-game/",
+    githubAlt: "projects.hangman-github-alt",
+    webAlt: "projects.hangman-web-alt",
   },
   {
     id: 8,
@@ -79,6 +93,8 @@ const DATA = [
     skills: ["HTML", "CSS", "ANGULAR"],
     githubLink: "https://github.com/crisgarm/countries-app",
     webLink: "https://crisgarm.github.io/countries-app/",
+    githubAlt: "projects.countries-github-alt",
+    webAlt: "projects.countries-web-alt",
   },
 ];
 

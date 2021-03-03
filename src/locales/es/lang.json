@@ -33,16 +33,30 @@
 
   "projects": {
     "title": "Mis proyectos",
-    "github-alt": "Ver el repositorio",
-    "web-alt": "Ver la web",
     "rick-morty": "Buscador de personajes de la serie Rick y Morty que permite filtrar por nombre y acceder a una ficha detalle de cada uno mediante el uso de React Router. Además, se puede filtrar por especie y ordenar los resultados alfabéticamente.",
+    "rick-morty-github-alt": "Ver el repositorio del proyecto Rick and Morty character finder",
+    "rick-morty-web-alt": "Ver una demo de la aplicación Rick and Morty character finder",
     "series-finder": "Aplicación web de búsqueda de series que, a través de la API TV Maze, permite buscar series por su título, marcar y desmarcarlas como favoritas y guardarlas en localStorage.",
+    "series-finder-github-alt": "Ver el repositorio del proyecto Series Finder",
+    "series-finder-web-alt": "Ver una demo de la aplicación Series Finder",
     "frida-kards": "Aplicación web interactiva que permite crear una tarjeta de visita personalizada, pudiendo elegir colores, contenido e imagen. Además de compartir la tarjeta creada en Twitter.",
+    "frida-kards-github-alt": "Ver el repositorio del proyecto Frida Kards",
+    "frida-kards-web-alt": "Ver una demo de la aplicación Frida Kards",
     "surrender": "Refactorización de código heredado, implementando React para dividir el código en componentes y mejorar las interacciones de los usuarios.",
+    "surrender-github-alt": "Ver el repositorio del proyecto Surrender",
+    "surrender-web-alt": "Ver una demo de la aplicación Surrender",
     "ninja-coders": "Web grupal responsive para presentar al equipo. Maquetada en mobile first, contiene una breve descripción de cada una de las integrantes del equipo y un formulario de contacto.",
+    "ninja-coders-github-alt": "Ver el repositorio de Ninja Coders",
+    "ninja-coders-web-alt": "Ver una demo de la página Ninja Coders",
     "to-do": "Aplicación web para la gestión de tareas. El usuario puede añadir nuevas tareas, marcarlas como completadas o borrarlas. También puede filtrar sus tareas por completadas, sin completar o todas. Además, se ha implementado el uso de localStorage para guardar las tareas.",
+    "to-do-github-alt": "Ver el repositorio del proyecto To-do List App",
+    "to-do-web-alt": "Ver una demo de la aplicación To-do List App",
     "hangman": "Desarrollo del juego del ahorcado, donde el usuario debe adivinar una palabra escogida al azar. Juego realizado en vanilla JavaScript adaptado a dispositivos móviles.",
-    "countries": "Desarrollo de una SPA de búsqueda de países con Angular a través de una API, pudiendo buscar por país, por capital o por región, además de acceder a una ficha con los detalles de cada país mediante el uso de RouterModule."
+    "hangman-github-alt": "Ver el repositorio del proyecto Hangman game",
+    "hangman-web-alt": "Ver una demo del juego del ahorcado",
+    "countries": "Desarrollo de una SPA de búsqueda de países con Angular a través de una API, pudiendo buscar por país, por capital o por región, además de acceder a una ficha con los detalles de cada país mediante el uso de RouterModule.",
+    "countries-github-alt": "Ver el repositorio del proyecto Countries App",
+    "countries-web-alt": "Ver una demo de la aplicación Countries App"
   },
 
   "contact": {
