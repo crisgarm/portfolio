@@ -28,7 +28,7 @@
     "text8": "After my experience improving the organic positioning of websites, I started researching about how to build websites. This",
     "text9": "challenge",
     "text10": "for programming is the reason I landed in Adalab bootcamp, where I have learned about different technologies and methodologies related with front-end development.",
-    "text11": "Below you can check all the technologies I have applied so far in my projects. My new challenge is Angular😉"
+    "text11": "Below you can check all the technologies I have applied so far in my projects. My new challenge is Angular and Modern JavaScript😉"
   },
 
   "projects": {
@@ -58,7 +58,13 @@
     "hangman-web-alt": "Hangman game demo",
     "countries": "Development of a country search SPA with Angular. Through the request to an API, we can search by country, capital or region. In addition, we can access a detailed description of each country by using RouterModule.",
     "countries-github-alt": "Countries App repository",
-    "countries-web-alt": "Countries App demo"
+    "countries-web-alt": "Countries App demo",
+    "sign-up-form": "Development of a registration form with a series of validations for the user name, email and password. Once the user has registered, the intranet will appear with the chosen name.",
+    "sign-up-form-github-alt": "Sign Up Form repository",
+    "sign-up-form-web-alt": "Sign Up Form demo",
+    "guess-number": "Development of a game to guess a number between 1 and 100 that is displayed randomly. The game gives clues as to whether the number she tries is too high or too low, and counts the number of tries.",
+    "guess-number-github-alt": "Guess The Number repository",
+    "guess-number-web-alt": "Guess The Number demo"
   },
 
   "contact": {

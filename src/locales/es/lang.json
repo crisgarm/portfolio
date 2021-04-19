@@ -28,7 +28,7 @@
     "text8": "Tras mi experiencia mejorando el posicionamiento orgánico de sitios web, empecé a investigar cómo crear esas páginas. Fue esta",
     "text9": "inquietud",
     "text10": "la que me llevó al bootcamp de Adalab, donde he descubierto un mundo apasionante lleno de posibilidades que me motiva a mejorar día a día.",
-    "text11": "A continuación, podéis ver las tecnologías que he utilizado hasta ahora en mis proyectos. Actualmente, realizando un curso de Angular. 😉"
+    "text11": "A continuación, podéis ver las tecnologías que he utilizado hasta ahora en mis proyectos. Actualmente, estoy realizando un curso de Angular y otro de JavaScript Moderno 😉"
   },
 
   "projects": {
@@ -56,7 +56,13 @@
     "hangman-web-alt": "Ver una demo del juego del ahorcado",
     "countries": "Desarrollo de una SPA de búsqueda de países con Angular a través de una API, pudiendo buscar por país, por capital o por región, además de acceder a una ficha con los detalles de cada país mediante el uso de RouterModule.",
     "countries-github-alt": "Ver el repositorio del proyecto Countries App",
-    "countries-web-alt": "Ver una demo de la aplicación Countries App"
+    "countries-web-alt": "Ver una demo de la aplicación Countries App",
+    "sign-up-form": "Desarrollo de un formulario de registro con una serie de validaciones para el nombre de usuario, email y contraseña. Una vez la usuaria se ha registrado, le aparecerá la intranet con el nombre elegido.",
+    "sign-up-form-github-alt": "Ver el repositorio del proyecto Sign Up Form",
+    "sign-up-form-web-alt": "Ver una demo de la aplicación Sign Up Form",
+    "guess-number": "Desarrollo de un juego para adivinar un número mostrado por el programa al azar. El sistema genera un número al azar entre 1 y 100, y la jugadora tiene que adivinarlo. El juego da pistas sobre si el número que prueba es demasiado alto o bajo, y va contabilizando el número de intentos.",
+    "guess-number-github-alt": "Ver el repositorio del proyecto Guess The Number",
+    "guess-number-web-alt": "Ver una demo de la aplicación Guess The Number"
   },
 
   "contact": {

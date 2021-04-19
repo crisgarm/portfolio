@@ -6,6 +6,8 @@ import NinjaCodersImg from "../images/project-05-ninja-coders.PNG";
 import ToDoList from "../images/project-06-to-do-list.PNG";
 import HangmanGameImg from "../images/project-07-hangman-game.PNG";
 import CountriesAppImg from "../images/project-08-countries-app.PNG";
+import SignUpFormImg from "../images/project-09-sign-up-form.png";
+import GuessNumberImg from "../images/project-10-guess-number.PNG";
 
 const DATA = [
   {
@@ -95,6 +97,28 @@ const DATA = [
     webLink: "https://crisgarm.github.io/countries-app/",
     githubAlt: "projects.countries-github-alt",
     webAlt: "projects.countries-web-alt",
+  },
+  {
+    id: 9,
+    title: "Sign Up Form",
+    description: "projects.sign-up-form",
+    image: SignUpFormImg,
+    skills: ["HTML", "CSS", "JS"],
+    githubLink: "https://github.com/crisgarm/sign-up-form",
+    webLink: "https://crisgarm.github.io/sign-up-form/",
+    githubAlt: "projects.sign-up-form-github-alt",
+    webAlt: "projects.sign-up-form-web-alt",
+  },
+  {
+    id: 10,
+    title: "Guess the number",
+    description: "projects.guess-number",
+    image: GuessNumberImg,
+    skills: ["HTML", "CSS", "JS"],
+    githubLink: "https://github.com/crisgarm/guess-the-number",
+    webLink: "https://crisgarm.github.io/guess-the-number/",
+    githubAlt: "projects.guess-number-github-alt",
+    webAlt: "projects.guess-number-web-alt",
   },
 ];
 
